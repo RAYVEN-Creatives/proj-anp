@@ -91,9 +91,9 @@
 -(void) leafMovement:(CGPoint *) touchLocation {
     Boolean touchLeaf = CGRectContainsPoint([_leafbulkNode boundingBox], *touchLocation);
     Boolean touchTrunk = CGRectContainsPoint([_trunkNode boundingBox], *touchLocation);
-    Boolean touchBranch = CGRectContainsPoint([_branchNode boundingBox], *touchLocation);
+    //Boolean touchBranch = CGRectContainsPoint([_branchNode boundingBox], *touchLocation);
     
-    if (touchLeaf || touchTrunk || touchBranch) {
+    if (touchLeaf || touchTrunk) {
         [self fallLeaves];
     }
 }
