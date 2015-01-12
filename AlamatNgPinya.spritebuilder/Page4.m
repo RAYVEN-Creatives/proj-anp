@@ -11,6 +11,7 @@
 @implementation Page4
 {
     CCNode *_potNode;
+    CCNode *test;
     CCSprite *_testNode;
     CCPhysicsNode *_physicsNode;
 }
@@ -21,10 +22,23 @@
     
     // load page3
     CCLOG(@"Page 4 loaded.");
+    
+    // TEST: Fade using ActionSequence
+    test = [CCBReader load:@"Test"];
 }
 
 -(void) touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
+    [self testFade];
+}
 
+-(void) testFade {
+    
+    [_physicsNode addChild:test z:1];
+    
+    CCActionFadeIn *fadeIn = [CCActionFadeIn actionWithDuration:1.0];
+    CCActionDelay *delay = [CCActionDelay actionWithDuration:0.8f];
+    CCActionSequence *testAction = [CCActionSequence actionWithArray:@[fadeIn, delay]];
+    [test runAction:testAction];
 }
 
 // next/prev pages
