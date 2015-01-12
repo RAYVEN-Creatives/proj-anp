@@ -10,7 +10,9 @@
 
 @implementation Page4
 {
-    CCNode *_testNode;
+    CCNode *_potNode;
+    CCSprite *_testNode;
+    CCPhysicsNode *_physicsNode;
 }
 
 -(void) didLoadFromCCB {
@@ -19,13 +21,25 @@
     
     // load page3
     CCLOG(@"Page 4 loaded.");
-    
-    // TEST: Fading a node
-    [self sampleFade];
 }
 
--(void) sampleFade {
-    _testNode.opacity = 0.50f;
+-(void) touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
+
+}
+
+// next/prev pages
+-(void) nextPage {
+    CCLOG(@"Next page");
+    // shift pages to page4
+    CCScene *gameplayScene = [CCBReader loadAsScene:@"pages/Page5"];
+    [[CCDirector sharedDirector] replaceScene:gameplayScene];
+}
+
+-(void) prevPage {
+    CCLOG(@"Previous page");
+    // shift page backward
+    CCScene *gameplayScene = [CCBReader loadAsScene:@"pages/Page3"];
+    [[CCDirector sharedDirector] replaceScene:gameplayScene];
 }
 
 @end
