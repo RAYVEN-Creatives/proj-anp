@@ -110,6 +110,7 @@
     [_leavesNode.parent addChild:leaves];
 }
 
+// next/prev pages
 -(void) nextPage {
     CCLOG(@"Next page");
     // shift pages to page2

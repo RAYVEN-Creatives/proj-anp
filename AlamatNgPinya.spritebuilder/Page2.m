@@ -82,10 +82,18 @@
     }
 }
 
+// next/prev pages
 -(void) nextPage {
     CCLOG(@"Next page");
     // shift pages to page3
     CCScene *gameplayScene = [CCBReader loadAsScene:@"pages/Page3"];
+    [[CCDirector sharedDirector] replaceScene:gameplayScene];
+}
+
+-(void) prevPage {
+    CCLOG(@"Previous page");
+    // shift pages to page2
+    CCScene *gameplayScene = [CCBReader loadAsScene:@"pages/Page1"];
     [[CCDirector sharedDirector] replaceScene:gameplayScene];
 }
 
