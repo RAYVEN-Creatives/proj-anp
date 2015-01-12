@@ -98,6 +98,7 @@
 		BC8206B91A637DBD003399B0 /* Page4.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8206B81A637DBD003399B0 /* Page4.m */; };
 		BCABC0751A384E3500755178 /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = BCABC0741A384E3500755178 /* MainMenu.m */; };
 		BCC486661A394E360025F6D5 /* Page1.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC486651A394E360025F6D5 /* Page1.m */; };
+		BCDB260E1A63B87400173B58 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDB260D1A63B87400173B58 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -246,6 +247,8 @@
 		BCABC0741A384E3500755178 /* MainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenu.m; sourceTree = "<group>"; };
 		BCC486641A394E360025F6D5 /* Page1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page1.h; sourceTree = "<group>"; };
 		BCC486651A394E360025F6D5 /* Page1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page1.m; sourceTree = "<group>"; };
+		BCDB260C1A63B87300173B58 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		BCDB260D1A63B87400173B58 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		D352B48019EC608A00829775 /* MetalShaders */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MetalShaders; path = Source/MetalShaders; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -484,6 +487,8 @@
 				D352B48019EC608A00829775 /* MetalShaders */,
 				BC5FB7731A5A603F00003315 /* Kabo.h */,
 				BC5FB7741A5A603F00003315 /* Kabo.m */,
+				BCDB260C1A63B87300173B58 /* Test.h */,
+				BCDB260D1A63B87400173B58 /* Test.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -904,6 +909,7 @@
 				BC5FB7791A5A816F00003315 /* Page3.m in Sources */,
 				BC8206B91A637DBD003399B0 /* Page4.m in Sources */,
 				BCABC0751A384E3500755178 /* MainMenu.m in Sources */,
+				BCDB260E1A63B87400173B58 /* Test.m in Sources */,
 				7A046D8C19E8A20E004C4763 /* LoadingScreen.m in Sources */,
 				BCC486661A394E360025F6D5 /* Page1.m in Sources */,
 				BC5FB7751A5A603F00003315 /* Kabo.m in Sources */,

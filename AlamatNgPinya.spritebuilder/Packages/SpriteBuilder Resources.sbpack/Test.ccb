@@ -36,7 +36,7 @@
 	<key>nodeGraph</key>
 	<dict>
 		<key>baseClass</key>
-		<string>CCSprite</string>
+		<string>CCNode</string>
 		<key>children</key>
 		<array>
 			<dict>
@@ -71,8 +71,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>-52</real>
-							<real>-35.999984741210938</real>
+							<real>-48</real>
+							<real>-51.999984741210938</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -122,9 +122,9 @@
 						<string>Color3</string>
 						<key>value</key>
 						<array>
-							<real>0.081208176910877228</real>
-							<real>0.0</real>
+							<real>0.15060500800609589</real>
 							<real>0.87000000476837158</real>
+							<real>0.51009935140609741</real>
 							<real>1</real>
 						</array>
 					</dict>
@@ -142,7 +142,7 @@
 		<key>customClass</key>
 		<string>Test</string>
 		<key>displayName</key>
-		<string>CCSprite</string>
+		<string>CCNode</string>
 		<key>memberVarAssignmentName</key>
 		<string></string>
 		<key>memberVarAssignmentType</key>
@@ -173,13 +173,26 @@
 			</dict>
 			<dict>
 				<key>name</key>
+				<string>contentSize</string>
+				<key>type</key>
+				<string>Size</string>
+				<key>value</key>
+				<array>
+					<real>0.0</real>
+					<real>0.0</real>
+					<integer>0</integer>
+					<integer>0</integer>
+				</array>
+			</dict>
+			<dict>
+				<key>name</key>
 				<string>anchorPoint</string>
 				<key>type</key>
 				<string>Point</string>
 				<key>value</key>
 				<array>
-					<real>0.5</real>
-					<real>0.5</real>
+					<real>0.0</real>
+					<real>0.0</real>
 				</array>
 			</dict>
 			<dict>
@@ -194,49 +207,6 @@
 					<false/>
 					<integer>0</integer>
 				</array>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>spriteFrame</string>
-				<key>type</key>
-				<string>SpriteFrame</string>
-				<key>value</key>
-				<array>
-					<string></string>
-					<string></string>
-				</array>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>normalMapSpriteFrame</string>
-				<key>type</key>
-				<string>SpriteFrame</string>
-				<key>value</key>
-				<array>
-					<string></string>
-					<string></string>
-				</array>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>color</string>
-				<key>type</key>
-				<string>Color3</string>
-				<key>value</key>
-				<array>
-					<real>1</real>
-					<real>1</real>
-					<real>1</real>
-					<real>1</real>
-				</array>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>effects</string>
-				<key>type</key>
-				<string>EffectControl</string>
-				<key>value</key>
-				<array/>
 			</dict>
 		</array>
 		<key>selected</key>
@@ -317,6 +287,6 @@
 	<key>stageBorder</key>
 	<integer>3</integer>
 	<key>stageColor</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

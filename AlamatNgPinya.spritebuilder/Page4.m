@@ -11,8 +11,10 @@
 @implementation Page4
 {
     CCNode *_potNode;
-    CCNode *test;
-    CCSprite *_testNode;
+    CCNode *_burnEffectNode1;
+    CCNode *_burnEffectNode2;
+    CCNode *_burnEffectNode3;
+    CCNode *_burnEffectNode4;
     CCPhysicsNode *_physicsNode;
 }
 
@@ -23,22 +25,26 @@
     // load page3
     CCLOG(@"Page 4 loaded.");
     
-    // TEST: Fade using ActionSequence
-    test = [CCBReader load:@"Test"];
+    _burnEffectNode1.opacity = 0.00f;
+    _burnEffectNode2.opacity = 0.00f;
+    _burnEffectNode3.opacity = 0.00f;
+    _burnEffectNode4.opacity = 0.00f;
 }
 
 -(void) touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
-    [self testFade];
+    [self burnFadeEffect];
 }
 
--(void) testFade {
-    
-    [_physicsNode addChild:test z:1];
-    
-    CCActionFadeIn *fadeIn = [CCActionFadeIn actionWithDuration:1.0];
-    CCActionDelay *delay = [CCActionDelay actionWithDuration:0.8f];
-    CCActionSequence *testAction = [CCActionSequence actionWithArray:@[fadeIn, delay]];
-    [test runAction:testAction];
+-(void) burnFadeEffect {
+    // show by animation
+    CCActionFadeIn *fadeIn = [CCActionFadeIn actionWithDuration:0.2]; // fade in
+    CCActionDelay *delay = [CCActionDelay actionWithDuration:0.1f]; // some delays...
+    CCActionFadeOut *fadeOut = [CCActionFadeOut actionWithDuration:0.2]; // fade out
+    CCActionSequence *testAction = [CCActionSequence actionWithArray:@[fadeIn, delay, fadeOut]]; // sequence them here
+    [_burnEffectNode1 runAction:testAction]; // connect sequence to node
+    [_burnEffectNode2 runAction:testAction]; // connect sequence to node
+    [_burnEffectNode3 runAction:testAction]; // connect sequence to node
+    [_burnEffectNode4 runAction:testAction]; // connect sequence to node
 }
 
 // next/prev pages

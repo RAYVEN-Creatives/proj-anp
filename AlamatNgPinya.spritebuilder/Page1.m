@@ -54,14 +54,6 @@
     [self leafMovement:&touchLocation];
 }
 
--(void) touchMoved:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
-
-    CGPoint touchLocation = [touch locationInWorld];
-    
-    // change location of broom using mouse position
-    _broomNode.position = touchLocation;
-}
-
 -(void)touchEnded:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
     [self releaseBroom];
 }
