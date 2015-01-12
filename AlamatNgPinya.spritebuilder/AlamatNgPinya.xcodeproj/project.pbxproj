@@ -95,6 +95,7 @@
 		BC5FB7751A5A603F00003315 /* Kabo.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5FB7741A5A603F00003315 /* Kabo.m */; };
 		BC5FB7791A5A816F00003315 /* Page3.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5FB7781A5A816F00003315 /* Page3.m */; };
 		BC62D55B1A3EDAE700826345 /* Page2.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62D55A1A3EDAE700826345 /* Page2.m */; };
+		BC8206B91A637DBD003399B0 /* Page4.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8206B81A637DBD003399B0 /* Page4.m */; };
 		BCABC0751A384E3500755178 /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = BCABC0741A384E3500755178 /* MainMenu.m */; };
 		BCC486661A394E360025F6D5 /* Page1.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC486651A394E360025F6D5 /* Page1.m */; };
 /* End PBXBuildFile section */
@@ -239,6 +240,8 @@
 		BC5FB7781A5A816F00003315 /* Page3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page3.m; sourceTree = "<group>"; };
 		BC62D5591A3EDAE600826345 /* Page2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page2.h; sourceTree = "<group>"; };
 		BC62D55A1A3EDAE700826345 /* Page2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page2.m; sourceTree = "<group>"; };
+		BC8206B71A637DBD003399B0 /* Page4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page4.h; sourceTree = "<group>"; };
+		BC8206B81A637DBD003399B0 /* Page4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page4.m; sourceTree = "<group>"; };
 		BCABC0731A384E3500755178 /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
 		BCABC0741A384E3500755178 /* MainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenu.m; sourceTree = "<group>"; };
 		BCC486641A394E360025F6D5 /* Page1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page1.h; sourceTree = "<group>"; };
@@ -585,6 +588,8 @@
 				BC62D55A1A3EDAE700826345 /* Page2.m */,
 				BC5FB7771A5A816F00003315 /* Page3.h */,
 				BC5FB7781A5A816F00003315 /* Page3.m */,
+				BC8206B71A637DBD003399B0 /* Page4.h */,
+				BC8206B81A637DBD003399B0 /* Page4.m */,
 			);
 			name = Pages;
 			sourceTree = "<group>";
@@ -897,6 +902,7 @@
 				BC62D55B1A3EDAE700826345 /* Page2.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 				BC5FB7791A5A816F00003315 /* Page3.m in Sources */,
+				BC8206B91A637DBD003399B0 /* Page4.m in Sources */,
 				BCABC0751A384E3500755178 /* MainMenu.m in Sources */,
 				7A046D8C19E8A20E004C4763 /* LoadingScreen.m in Sources */,
 				BCC486661A394E360025F6D5 /* Page1.m in Sources */,
