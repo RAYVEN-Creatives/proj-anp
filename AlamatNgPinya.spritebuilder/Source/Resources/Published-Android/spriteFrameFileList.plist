@@ -9,6 +9,7 @@
 	</dict>
 	<key>spriteFrameFiles</key>
 	<array>
+		<string>page 1 assets.plist</string>
 		<string>Storyboard Page1 Assets.plist</string>
 	</array>
 </dict>

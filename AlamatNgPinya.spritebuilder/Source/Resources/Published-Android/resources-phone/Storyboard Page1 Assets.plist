@@ -82,19 +82,6 @@
 			<key>sourceSize</key>
 			<string>{512, 384}</string>
 		</dict>
-		<key>Storyboard Page1 Assets/broom with hand.png</key>
-		<dict>
-			<key>frame</key>
-			<string>{{949, 40}, {46, 163}}</string>
-			<key>offset</key>
-			<string>{0, 0}</string>
-			<key>rotated</key>
-			<false/>
-			<key>sourceColorRect</key>
-			<string>{{0, 0}, {46, 163}}</string>
-			<key>sourceSize</key>
-			<string>{46, 163}</string>
-		</dict>
 		<key>Storyboard Page1 Assets/broom.png</key>
 		<dict>
 			<key>frame</key>

@@ -15,21 +15,19 @@
     CCNode *_leafbulkNode;
     CCNode *_trunkNode;
     CCNode *_branchNode;
-    CCNode *_broomNode;
-    CCNode *_mouseNode;
     CCPhysicsNode *_physicsNodep1;
     CCPhysicsJoint *_mouseJoint;
 }
 
 -(void) didLoadFromCCB {
     // enable touch inputs
-    self.userInteractionEnabled = TRUE;
+    //self.userInteractionEnabled = TRUE;
     
     // load page1
     CCLOG(@"Page 1 loaded.");
     
     // disable collision on mouseNode
-    _mouseNode.physicsBody.collisionMask = @[];
+    //_mouseNode.physicsBody.collisionMask = @[];
     
     // DEBUG: Let's see le joints ~
     // _physicsNodep1.debugDraw = TRUE;
@@ -43,47 +41,17 @@
     
     // gets touch location
     CGPoint touchLocation = [touch locationInWorld];
-
-    if (CGRectContainsPoint([_broomNode boundingBox], touchLocation)){
-        CCLOG(@"Start...");
-        // move broom ~~
-        [self holdBroom:&touchLocation];
-    }
-    
+   
     // drop leaves ~~
     [self leafMovement:&touchLocation];
 }
 
--(void)touchEnded:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
-    [self releaseBroom];
-}
-
--(void)touchCancelled:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
-    [self releaseBroom];
-}
-
--(void) holdBroom:(CGPoint *) touchLocation {
-    // move location of mouseNode
-    _mouseNode.position = *touchLocation;
-    
-    // add joint to mouse and broom
-    _mouseJoint = [CCPhysicsJoint connectedDistanceJointWithBodyA:_broomNode.physicsBody bodyB:_mouseNode.physicsBody anchorA:ccp(100, 100) anchorB:ccp(1, 1) minDistance:0.01 maxDistance:0.01];
-}
-
--(void) releaseBroom {
-    if (_mouseJoint != nil) {
-        // release broom
-        [_mouseJoint invalidate];
-        _mouseJoint = nil;
-    }
-}
 
 // Drop leaves on tree upon clicking the tree
 // TODO: Make the tree shake
 -(void) leafMovement:(CGPoint *) touchLocation {
     Boolean touchLeaf = CGRectContainsPoint([_leafbulkNode boundingBox], *touchLocation);
     Boolean touchTrunk = CGRectContainsPoint([_trunkNode boundingBox], *touchLocation);
-    //Boolean touchBranch = CGRectContainsPoint([_branchNode boundingBox], *touchLocation);
     
     if (touchLeaf || touchTrunk) {
         [self fallLeaves];
@@ -102,7 +70,6 @@
     [_leavesNode.parent addChild:leaves];
 }
 
-// next/prev pages
 -(void) nextPage {
     CCLOG(@"Next page");
     // shift pages to page2
