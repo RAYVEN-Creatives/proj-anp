@@ -29,8 +29,6 @@
     // disable collision on mouseNode
     //_mouseNode.physicsBody.collisionMask = @[];
     
-    // DEBUG: Let's see le joints ~
-    // _physicsNodep1.debugDraw = TRUE;
     
     // as a starting point, leaves fall
     [self fallLeaves];

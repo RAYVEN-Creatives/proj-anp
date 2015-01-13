@@ -50,6 +50,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>bg1 final</string>
+				<key>locked</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -393,6 +395,8 @@
 								<string></string>
 								<key>displayName</key>
 								<string>bulkleaf_box</string>
+								<key>locked</key>
+								<true/>
 								<key>memberVarAssignmentName</key>
 								<string>_leafbulkNode</string>
 								<key>memberVarAssignmentType</key>
@@ -492,6 +496,8 @@
 								<string></string>
 								<key>displayName</key>
 								<string>trunk_box</string>
+								<key>locked</key>
+								<true/>
 								<key>memberVarAssignmentName</key>
 								<string>_trunkNode</string>
 								<key>memberVarAssignmentType</key>
@@ -754,6 +760,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>Pinang</string>
+				<key>locked</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -850,8 +858,6 @@
 						<array/>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -1211,11 +1217,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>184.99998474121094</real>
-							<real>110.99998474121094</real>
+							<real>0.3257041871547699</real>
+							<real>0.34687495231628418</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1240,6 +1246,8 @@
 						<string>Animations/AlingRosaSweeping.ccb</string>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>

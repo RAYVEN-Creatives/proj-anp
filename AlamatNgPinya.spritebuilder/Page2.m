@@ -41,8 +41,6 @@
     CGPoint touchLocation = [touch locationInWorld];
     // activate babols
     [self bubbleGrow:&touchLocation];
-    // move kabo!
-    [self kaboTap:&touchLocation];
 }
 
 -(void) touchMoved:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
@@ -75,12 +73,12 @@
     }
 }
 
-// make kabo move!
--(void) kaboTap:(CGPoint *) touchLocation {
-    if (CGRectContainsPoint([_kaboNode boundingBox], *touchLocation)) {
-        [_kaboSprite.animationManager runAnimationsForSequenceNamed:@"SinkAndFloat"];
-    }
-}
+//// make kabo move!
+//-(void) kaboTap:(CGPoint *) touchLocation {
+//    if (CGRectContainsPoint([_kaboNode boundingBox], *touchLocation)) {
+//        [_kaboSprite.animationManager runAnimationsForSequenceNamed:@"SinkAndFloat"];
+//    }
+//}
 
 // next/prev pages
 -(void) nextPage {
