@@ -87,11 +87,6 @@
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>
-		<key>Storyboard Page1 Assets</key>
-		<dict>
-			<key>isSmartSpriteSheet</key>
-			<true/>
-		</dict>
 		<key>ccbResources</key>
 		<dict>
 			<key>previewFolderHidden</key>

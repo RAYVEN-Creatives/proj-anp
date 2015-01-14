@@ -14,14 +14,11 @@
     CCNode *_leavesNode;
     CCNode *_leafbulkNode;
     CCNode *_trunkNode;
-    CCNode *_branchNode;
-    CCPhysicsNode *_physicsNodep1;
-    CCPhysicsJoint *_mouseJoint;
 }
 
 -(void) didLoadFromCCB {
     // enable touch inputs
-    //self.userInteractionEnabled = TRUE;
+    self.userInteractionEnabled = TRUE;
     
     // load page1
     CCLOG(@"Page 1 loaded.");

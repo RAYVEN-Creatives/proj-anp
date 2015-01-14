@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>63</integer>
+	<integer>64</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -1187,7 +1187,7 @@
 			</dict>
 			<dict>
 				<key>UUID</key>
-				<integer>62</integer>
+				<integer>63</integer>
 				<key>baseClass</key>
 				<string>CCBFile</string>
 				<key>children</key>
@@ -1217,11 +1217,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>0.3257041871547699</real>
-							<real>0.34687495231628418</real>
+							<real>187.99996948242188</real>
+							<real>115.99998474121094</real>
 							<integer>0</integer>
-							<integer>2</integer>
-							<integer>2</integer>
+							<integer>0</integer>
+							<integer>0</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1231,8 +1231,8 @@
 						<string>ScaleLock</string>
 						<key>value</key>
 						<array>
-							<real>0.52386409044265747</real>
-							<real>0.52386409044265747</real>
+							<real>0.5469093918800354</real>
+							<real>0.5469093918800354</real>
 							<false/>
 							<integer>0</integer>
 						</array>
