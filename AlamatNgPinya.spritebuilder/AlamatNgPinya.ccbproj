@@ -179,6 +179,11 @@
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>
+		<key>page 3 assets/curtain</key>
+		<dict>
+			<key>isSmartSpriteSheet</key>
+			<true/>
+		</dict>
 		<key>pages</key>
 		<dict/>
 		<key>tub with water</key>

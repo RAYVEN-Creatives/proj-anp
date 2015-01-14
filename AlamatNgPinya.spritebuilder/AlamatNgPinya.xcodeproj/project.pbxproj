@@ -96,7 +96,7 @@
 		BC5FB7791A5A816F00003315 /* Page3.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5FB7781A5A816F00003315 /* Page3.m */; };
 		BC62D55B1A3EDAE700826345 /* Page2.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62D55A1A3EDAE700826345 /* Page2.m */; };
 		BC8206B91A637DBD003399B0 /* Page4.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8206B81A637DBD003399B0 /* Page4.m */; };
-		BCABC0751A384E3500755178 /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = BCABC0741A384E3500755178 /* MainMenu.m */; };
+		BCABC0751A384E3500755178 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = BCABC0741A384E3500755178 /* Menu.m */; };
 		BCC486661A394E360025F6D5 /* Page1.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC486651A394E360025F6D5 /* Page1.m */; };
 		BCDB260E1A63B87400173B58 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDB260D1A63B87400173B58 /* Test.m */; };
 /* End PBXBuildFile section */
@@ -136,41 +136,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = 7A4037A819E37038007B6E8F;
 			remoteInfo = "cocos2d-mac";
-		};
-		7A97910519E62E4C001FFC4D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B7378940180761A80076A88C /* cocos2d.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 5BF32679195F8D8800D9A51A;
-			remoteInfo = cocos2dJava;
-		};
-		7A97910F19E6319A001FFC4D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B7378940180761A80076A88C /* cocos2d.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 5018F24C0DFDEAC400C013A5;
-			remoteInfo = "cocos2d-ios";
-		};
-		7A97911519E631A1001FFC4D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B7378940180761A80076A88C /* cocos2d.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 7A4037A719E37038007B6E8F;
-			remoteInfo = "cocos2d-mac";
-		};
-		7A97911F19E63219001FFC4D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B7378940180761A80076A88C /* cocos2d.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 5BF32679195F8D8800D9A51A;
-			remoteInfo = cocos2dJava;
-		};
-		7A97912119E6321C001FFC4D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B7378940180761A80076A88C /* cocos2d.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D2FEB60D194F6C9E00FC0574;
-			remoteInfo = cocos2dAndroid;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -243,8 +208,8 @@
 		BC62D55A1A3EDAE700826345 /* Page2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page2.m; sourceTree = "<group>"; };
 		BC8206B71A637DBD003399B0 /* Page4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page4.h; sourceTree = "<group>"; };
 		BC8206B81A637DBD003399B0 /* Page4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page4.m; sourceTree = "<group>"; };
-		BCABC0731A384E3500755178 /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
-		BCABC0741A384E3500755178 /* MainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenu.m; sourceTree = "<group>"; };
+		BCABC0731A384E3500755178 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		BCABC0741A384E3500755178 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
 		BCC486641A394E360025F6D5 /* Page1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page1.h; sourceTree = "<group>"; };
 		BCC486651A394E360025F6D5 /* Page1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page1.m; sourceTree = "<group>"; };
 		BCDB260C1A63B87300173B58 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
@@ -482,8 +447,8 @@
 				7A40362019DDEF0D007B6E8F /* Platforms */,
 				B7378992180767190076A88C /* LoadingScreen.h */,
 				B7378993180767190076A88C /* LoadingScreen.m */,
-				BCABC0731A384E3500755178 /* MainMenu.h */,
-				BCABC0741A384E3500755178 /* MainMenu.m */,
+				BCABC0731A384E3500755178 /* Menu.h */,
+				BCABC0741A384E3500755178 /* Menu.m */,
 				D352B48019EC608A00829775 /* MetalShaders */,
 				BC5FB7731A5A603F00003315 /* Kabo.h */,
 				BC5FB7741A5A603F00003315 /* Kabo.m */,
@@ -612,7 +577,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				7A97910619E62E4C001FFC4D /* PBXTargetDependency */,
 			);
 			name = "PhysicsTest Java";
 			productName = "PhysicsTest Java";
@@ -630,7 +594,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				7A97911619E631A1001FFC4D /* PBXTargetDependency */,
 			);
 			name = "PhysicsTest Mac";
 			productName = "PhysicsTest Mac";
@@ -649,8 +612,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				7A97912219E6321C001FFC4D /* PBXTargetDependency */,
-				7A97912019E63219001FFC4D /* PBXTargetDependency */,
 				5B121032197485D1004C1E1D /* PBXTargetDependency */,
 			);
 			name = "PhysicsTest Android";
@@ -671,7 +632,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				7A97911019E6319A001FFC4D /* PBXTargetDependency */,
 			);
 			name = "PhysicsTest iOS";
 			productName = Example;
@@ -706,6 +666,7 @@
 			knownRegions = (
 				en,
 				Base,
+				English,
 			);
 			mainGroup = B77F1B2517B978D7009739AE;
 			productRefGroup = B77F1B2F17B978D7009739AE /* Products */;
@@ -908,7 +869,7 @@
 				B73789871807631A0076A88C /* main.m in Sources */,
 				BC5FB7791A5A816F00003315 /* Page3.m in Sources */,
 				BC8206B91A637DBD003399B0 /* Page4.m in Sources */,
-				BCABC0751A384E3500755178 /* MainMenu.m in Sources */,
+				BCABC0751A384E3500755178 /* Menu.m in Sources */,
 				BCDB260E1A63B87400173B58 /* Test.m in Sources */,
 				7A046D8C19E8A20E004C4763 /* LoadingScreen.m in Sources */,
 				BCC486661A394E360025F6D5 /* Page1.m in Sources */,
@@ -924,31 +885,6 @@
 			isa = PBXTargetDependency;
 			target = 5B121020197484A3004C1E1D /* PhysicsTest Java */;
 			targetProxy = 5B121031197485D1004C1E1D /* PBXContainerItemProxy */;
-		};
-		7A97910619E62E4C001FFC4D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = cocos2dJava;
-			targetProxy = 7A97910519E62E4C001FFC4D /* PBXContainerItemProxy */;
-		};
-		7A97911019E6319A001FFC4D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "cocos2d-ios";
-			targetProxy = 7A97910F19E6319A001FFC4D /* PBXContainerItemProxy */;
-		};
-		7A97911619E631A1001FFC4D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "cocos2d-mac";
-			targetProxy = 7A97911519E631A1001FFC4D /* PBXContainerItemProxy */;
-		};
-		7A97912019E63219001FFC4D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = cocos2dJava;
-			targetProxy = 7A97911F19E63219001FFC4D /* PBXContainerItemProxy */;
-		};
-		7A97912219E6321C001FFC4D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = cocos2dAndroid;
-			targetProxy = 7A97912119E6321C001FFC4D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1293,6 +1229,14 @@
 				INFOPLIST_FILE = Source/Resources/Platforms/iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone/build/Debug-iphonesimulator",
+					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone/external/ObjectAL/ObjectAL/build/Debug-iphonesimulator",
+					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone/external/ObjectAL/ObjectAL/build/Release",
+					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone/external/SSZipArchive/build/Debug-iphonesimulator",
+					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone/external/SSZipArchive/build/Release",
+				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-lz",
@@ -1327,6 +1271,14 @@
 				INFOPLIST_FILE = Source/Resources/Platforms/iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone/build/Debug-iphonesimulator",
+					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone/external/ObjectAL/ObjectAL/build/Debug-iphonesimulator",
+					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone/external/ObjectAL/ObjectAL/build/Release",
+					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone/external/SSZipArchive/build/Debug-iphonesimulator",
+					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone/external/SSZipArchive/build/Release",
+				);
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-ObjC",

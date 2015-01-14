@@ -14,11 +14,7 @@
     int emissionRate;
     CCAction *move;
     CCNode *_clothesNode;
-    CCNode *_basinNode;
-    CCNode *_kaboNode;
-    CCNode *_kaboBoundary;
     CCParticleSystem *_bubbleNode;
-    CCSprite *_kaboSprite;
 }
 
 -(void) didLoadFromCCB {
@@ -65,20 +61,14 @@
 // Grow some bubbles!!!
 -(void) bubbleGrow:(CGPoint *) touchLocation {
     if (CGRectContainsPoint([_clothesNode boundingBox], *touchLocation)) {
-        if (emissionRate > 300) {
-            emissionRate = 300;
+        if (emissionRate > 50) {
+            emissionRate = 50;
             _bubbleNode.emissionRate = emissionRate;
         }
-        else _bubbleNode.emissionRate = emissionRate++;
+        else _bubbleNode.emissionRate += emissionRate++;
     }
 }
 
-//// make kabo move!
-//-(void) kaboTap:(CGPoint *) touchLocation {
-//    if (CGRectContainsPoint([_kaboNode boundingBox], *touchLocation)) {
-//        [_kaboSprite.animationManager runAnimationsForSequenceNamed:@"SinkAndFloat"];
-//    }
-//}
 
 // next/prev pages
 -(void) nextPage {

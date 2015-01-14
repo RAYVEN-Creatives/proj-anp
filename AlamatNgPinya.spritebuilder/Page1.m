@@ -14,6 +14,7 @@
     CCNode *_leavesNode;
     CCNode *_leafbulkNode;
     CCNode *_trunkNode;
+    CCNode *_physicsNodep1;
 }
 
 -(void) didLoadFromCCB {

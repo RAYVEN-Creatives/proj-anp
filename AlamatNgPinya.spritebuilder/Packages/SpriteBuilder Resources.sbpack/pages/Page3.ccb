@@ -556,6 +556,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>walls</string>
+				<key>hidden</key>
+				<true/>
 				<key>locked</key>
 				<true/>
 				<key>memberVarAssignmentName</key>
@@ -725,8 +727,6 @@
 						<real>1</real>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -864,6 +864,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>curtains</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -992,6 +994,8 @@
 						<string>props/Bed.ccb</string>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -1139,7 +1143,7 @@
 										<key>value</key>
 										<array>
 											<real>120.00001525878906</real>
-											<real>105.00003051757812</real>
+											<real>106.00003051757812</real>
 											<integer>0</integer>
 											<integer>0</integer>
 											<integer>0</integer>
