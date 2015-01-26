@@ -179,7 +179,14 @@
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>
+		<key>page 3 assets</key>
+		<dict/>
 		<key>page 3 assets/curtain</key>
+		<dict>
+			<key>isSmartSpriteSheet</key>
+			<true/>
+		</dict>
+		<key>page 4 assets</key>
 		<dict>
 			<key>isSmartSpriteSheet</key>
 			<true/>

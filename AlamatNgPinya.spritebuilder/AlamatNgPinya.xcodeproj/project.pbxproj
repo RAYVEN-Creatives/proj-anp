@@ -12,9 +12,7 @@
 		5B12102A197484DD004C1E1D /* PhysicsTestActivity.java in Sources */ = {isa = PBXBuildFile; fileRef = 5B12101B19748413004C1E1D /* PhysicsTestActivity.java */; };
 		5B121030197484FA004C1E1D /* PhysicsTestActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B12102F197484FA004C1E1D /* PhysicsTestActivity.m */; };
 		5B121038197487F2004C1E1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B737893E1807617C0076A88C /* AppDelegate.m */; };
-		7A046D8C19E8A20E004C4763 /* LoadingScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = B7378993180767190076A88C /* LoadingScreen.m */; };
 		7A40360419DDEE84007B6E8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A40360319DDEE84007B6E8F /* main.m */; };
-		7A4036E819DE3F33007B6E8F /* LoadingScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = B7378993180767190076A88C /* LoadingScreen.m */; };
 		7A4036EB19DE3F8E007B6E8F /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
 		7A4036EC19DE3F90007B6E8F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3117B978D7009739AE /* QuartzCore.framework */; };
 		7A4036EE19DE3F93007B6E8F /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3517B978D7009739AE /* OpenAL.framework */; };
@@ -47,7 +45,6 @@
 		7A97911719E631C6001FFC4D /* libcocos2d-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A97910419E62E40001FFC4D /* libcocos2d-mac.a */; };
 		7A97911819E631CD001FFC4D /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9790FE19E62E40001FFC4D /* libcocos2d.a */; };
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
-		927F619E196C771E000F43EF /* LoadingScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = B7378993180767190076A88C /* LoadingScreen.m */; };
 		927F61A5196C771E000F43EF /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3517B978D7009739AE /* OpenAL.framework */; };
 		927F61A9196C771E000F43EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3D17B978D7009739AE /* Foundation.framework */; };
 		927F61AA196C771E000F43EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3F17B978D7009739AE /* CoreGraphics.framework */; };
@@ -96,9 +93,9 @@
 		BC5FB7791A5A816F00003315 /* Page3.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5FB7781A5A816F00003315 /* Page3.m */; };
 		BC62D55B1A3EDAE700826345 /* Page2.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62D55A1A3EDAE700826345 /* Page2.m */; };
 		BC8206B91A637DBD003399B0 /* Page4.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8206B81A637DBD003399B0 /* Page4.m */; };
-		BCABC0751A384E3500755178 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = BCABC0741A384E3500755178 /* Menu.m */; };
 		BCC486661A394E360025F6D5 /* Page1.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC486651A394E360025F6D5 /* Page1.m */; };
 		BCDB260E1A63B87400173B58 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDB260D1A63B87400173B58 /* Test.m */; };
+		BCE6CDA91A75ECC2008D4F7F /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE6CDA81A75ECC2008D4F7F /* MainMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -186,8 +183,6 @@
 		B737896E180762440076A88C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Source/Resources/Default@2x.png"; sourceTree = SOURCE_ROOT; };
 		B73789851807631A0076A88C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Source/Platforms/iOS/main.m; sourceTree = SOURCE_ROOT; };
 		B73789861807631A0076A88C /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = Source/Prefix.pch; sourceTree = SOURCE_ROOT; };
-		B7378992180767190076A88C /* LoadingScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadingScreen.h; path = Source/LoadingScreen.h; sourceTree = "<group>"; };
-		B7378993180767190076A88C /* LoadingScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadingScreen.m; path = Source/LoadingScreen.m; sourceTree = "<group>"; };
 		B77F1B2E17B978D7009739AE /* PhysicsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhysicsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B77F1B3117B978D7009739AE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B77F1B3317B978D7009739AE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -208,12 +203,12 @@
 		BC62D55A1A3EDAE700826345 /* Page2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page2.m; sourceTree = "<group>"; };
 		BC8206B71A637DBD003399B0 /* Page4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page4.h; sourceTree = "<group>"; };
 		BC8206B81A637DBD003399B0 /* Page4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page4.m; sourceTree = "<group>"; };
-		BCABC0731A384E3500755178 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
-		BCABC0741A384E3500755178 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
 		BCC486641A394E360025F6D5 /* Page1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page1.h; sourceTree = "<group>"; };
 		BCC486651A394E360025F6D5 /* Page1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page1.m; sourceTree = "<group>"; };
 		BCDB260C1A63B87300173B58 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		BCDB260D1A63B87400173B58 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		BCE6CDA71A75ECC2008D4F7F /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
+		BCE6CDA81A75ECC2008D4F7F /* MainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenu.m; sourceTree = "<group>"; };
 		D352B48019EC608A00829775 /* MetalShaders */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MetalShaders; path = Source/MetalShaders; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -445,15 +440,13 @@
 			children = (
 				BC62D5621A3EDB8500826345 /* Pages */,
 				7A40362019DDEF0D007B6E8F /* Platforms */,
-				B7378992180767190076A88C /* LoadingScreen.h */,
-				B7378993180767190076A88C /* LoadingScreen.m */,
-				BCABC0731A384E3500755178 /* Menu.h */,
-				BCABC0741A384E3500755178 /* Menu.m */,
 				D352B48019EC608A00829775 /* MetalShaders */,
 				BC5FB7731A5A603F00003315 /* Kabo.h */,
 				BC5FB7741A5A603F00003315 /* Kabo.m */,
 				BCDB260C1A63B87300173B58 /* Test.h */,
 				BCDB260D1A63B87400173B58 /* Test.m */,
+				BCE6CDA71A75ECC2008D4F7F /* MainMenu.h */,
+				BCE6CDA81A75ECC2008D4F7F /* MainMenu.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -846,7 +839,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A4036E819DE3F33007B6E8F /* LoadingScreen.m in Sources */,
 				7A40360419DDEE84007B6E8F /* main.m in Sources */,
 				7A59498E19E3941300F65F90 /* AppDelegate.m in Sources */,
 			);
@@ -856,7 +848,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				927F619E196C771E000F43EF /* LoadingScreen.m in Sources */,
 				5B121030197484FA004C1E1D /* PhysicsTestActivity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -869,9 +860,8 @@
 				B73789871807631A0076A88C /* main.m in Sources */,
 				BC5FB7791A5A816F00003315 /* Page3.m in Sources */,
 				BC8206B91A637DBD003399B0 /* Page4.m in Sources */,
-				BCABC0751A384E3500755178 /* Menu.m in Sources */,
+				BCE6CDA91A75ECC2008D4F7F /* MainMenu.m in Sources */,
 				BCDB260E1A63B87400173B58 /* Test.m in Sources */,
-				7A046D8C19E8A20E004C4763 /* LoadingScreen.m in Sources */,
 				BCC486661A394E360025F6D5 /* Page1.m in Sources */,
 				BC5FB7751A5A603F00003315 /* Kabo.m in Sources */,
 				5B121038197487F2004C1E1D /* AppDelegate.m in Sources */,

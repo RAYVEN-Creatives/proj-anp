@@ -21,6 +21,19 @@
     CCLOG(@"Page 4 loaded.");
 }
 
+-(void) touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
+    CCLOG(@"Test burn effects...");
+    
+    // load effect
+    CCSprite *burneffect = (CCSprite *) [CCBReader load:@"props/BurnEffect"];
+    
+    // position
+    burneffect.position = ccp(300, 150);
+    
+    // addchild
+    
+}
+
 // next/prev pages
 -(void) nextPage {
     CCLOG(@"Next page");

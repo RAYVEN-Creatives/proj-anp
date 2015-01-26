@@ -1,3 +1,0 @@
-@interface LoadingScreen : CCNode
-
-@end
