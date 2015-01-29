@@ -5,15 +5,15 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleDisplayName</key>
-	<string>PhysicsTest</string>
+	<string>AlamatNgPinya</string>
 	<key>CFBundleExecutable</key>
-	<string>PhysicsTest</string>
+	<string>AlamatNgPinya</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.cocos2d.PhysicsTest</string>
+	<string>org.cocos2d.AlamatNgPinya</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>PhysicsTest</string>
+	<string>AlamatNgPinya</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleSignature</key>

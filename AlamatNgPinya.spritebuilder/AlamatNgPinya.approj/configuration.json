@@ -1,7 +1,7 @@
 {
   "configuration_format_version": 2,
 
-   "default_target": {"project": "PhysicsTest", "project_config": "Release", "target": "PhysicsTest"},
+   "default_target": {"project": "AlamatNgPinya", "project_config": "Release", "target": "AlamatNgPinya"},
 
 
   // Dictionary of global configuration parameters.

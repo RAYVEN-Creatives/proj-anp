@@ -32,7 +32,7 @@
 #import "ccMacros.h"
 
 @interface CCActionManager (Private)
--(void) removeActionAtIndex:(NSUInteger)    index hashElement:(tHashElement*)element;
+-(void) removeActionAtIndex:(NSUInteger)index hashElement:(tHashElement*)element;
 -(void) deleteHashElement:(tHashElement*)element;
 -(void) actionAllocWithHashElement:(tHashElement*)element;
 @end

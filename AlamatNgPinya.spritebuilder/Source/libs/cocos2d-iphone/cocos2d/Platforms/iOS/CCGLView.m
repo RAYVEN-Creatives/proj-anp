@@ -228,7 +228,7 @@ extern EAGLContext *CCRenderDispatchSetupGL(EAGLRenderingAPI api, EAGLSharegroup
         } else {
             self.contentScaleFactor = screen.scale;
         }
-
+        
 		if( ! [self setupSurfaceWithSharegroup:sharegroup] ) {
 			return nil;
 		}

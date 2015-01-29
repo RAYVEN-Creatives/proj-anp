@@ -1,9 +1,9 @@
 //
 //  Page1.m
-//  PhysicsTest
+//  AlamatNgPinya
 //
-//  Created by Ray Venenoso on 12/11/14.
-//  Copyright (c) 2014 Apportable. All rights reserved.
+//  Created by Ray Venenoso on 1/29/15.
+//  Copyright (c) 2015 Apportable. All rights reserved.
 //
 
 #import "Page1.h"
@@ -12,21 +12,17 @@
 
 {
     CCNode *_leavesNode;
-    CCNode *_leafbulkNode;
-    CCNode *_trunkNode;
-    CCNode *_physicsNodep1;
+    CCNode *_branchNode;
+    CCNode *_trunkNode1;
+    CCNode *_trunkNode2;
 }
 
--(void) didLoadFromCCB {
+- (void) didLoadFromCCB {
     // enable touch inputs
     self.userInteractionEnabled = TRUE;
     
-    // load page1
+    // test if page 1 will come out here
     CCLOG(@"Page 1 loaded.");
-    
-    // disable collision on mouseNode
-    //_mouseNode.physicsBody.collisionMask = @[];
-    
     
     // as a starting point, leaves fall
     [self fallLeaves];
@@ -37,7 +33,7 @@
     
     // gets touch location
     CGPoint touchLocation = [touch locationInWorld];
-   
+    
     // drop leaves ~~
     [self leafMovement:&touchLocation];
 }
@@ -46,10 +42,11 @@
 // Drop leaves on tree upon clicking the tree
 // TODO: Make the tree shake
 -(void) leafMovement:(CGPoint *) touchLocation {
-    Boolean touchLeaf = CGRectContainsPoint([_leafbulkNode boundingBox], *touchLocation);
-    Boolean touchTrunk = CGRectContainsPoint([_trunkNode boundingBox], *touchLocation);
+    Boolean touchBranch = CGRectContainsPoint([_branchNode boundingBox], *touchLocation);
+    Boolean touchTrunk1 = CGRectContainsPoint([_trunkNode1 boundingBox], *touchLocation);
+    Boolean touchTrunk2 = CGRectContainsPoint([_trunkNode2 boundingBox], *touchLocation);
     
-    if (touchLeaf || touchTrunk) {
+    if (touchBranch || touchTrunk1 || touchTrunk2) {
         [self fallLeaves];
     }
 }
@@ -57,20 +54,13 @@
 -(void) fallLeaves {
     CCLOG(@"Leaves fall off...");
     // load leaves
-    CCParticleSystem *leaves = (CCParticleSystem *)[CCBReader load:@"props/particles/LeafParticle"];
+    CCParticleSystem *leaves = (CCParticleSystem *)[CCBReader load:@"assets/ccbFiles/FallingLeaves"];
     
     // position leaves above (change points to corresponds with the tree's location)
     leaves.position = ccp(50, 320);
     
     // throws/falls leaves
     [_leavesNode.parent addChild:leaves];
-}
-
--(void) nextPage {
-    CCLOG(@"Next page");
-    // shift pages to page2
-    CCScene *gameplayScene = [CCBReader loadAsScene:@"pages/Page2"];
-    [[CCDirector sharedDirector] replaceScene:gameplayScene];
 }
 
 @end

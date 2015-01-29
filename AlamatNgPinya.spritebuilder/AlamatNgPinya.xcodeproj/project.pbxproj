@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		5B12100C19748281004C1E1D /* BridgeKitV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B12100B19748281004C1E1D /* BridgeKitV3.framework */; };
 		5B121029197484DA004C1E1D /* BridgeKitV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B12100B19748281004C1E1D /* BridgeKitV3.framework */; };
-		5B12102A197484DD004C1E1D /* PhysicsTestActivity.java in Sources */ = {isa = PBXBuildFile; fileRef = 5B12101B19748413004C1E1D /* PhysicsTestActivity.java */; };
-		5B121030197484FA004C1E1D /* PhysicsTestActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B12102F197484FA004C1E1D /* PhysicsTestActivity.m */; };
+		5B12102A197484DD004C1E1D /* AlamatNgPinyaActivity.java in Sources */ = {isa = PBXBuildFile; fileRef = 5B12101B19748413004C1E1D /* AlamatNgPinyaActivity.java */; };
+		5B121030197484FA004C1E1D /* AlamatNgPinyaActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B12102F197484FA004C1E1D /* AlamatNgPinyaActivity.m */; };
 		5B121038197487F2004C1E1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B737893E1807617C0076A88C /* AppDelegate.m */; };
+		7A046D8C19E8A20E004C4763 /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B7378993180767190076A88C /* MainScene.m */; };
 		7A40360419DDEE84007B6E8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A40360319DDEE84007B6E8F /* main.m */; };
+		7A4036E819DE3F33007B6E8F /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B7378993180767190076A88C /* MainScene.m */; };
 		7A4036EB19DE3F8E007B6E8F /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
 		7A4036EC19DE3F90007B6E8F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3117B978D7009739AE /* QuartzCore.framework */; };
 		7A4036EE19DE3F93007B6E8F /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3517B978D7009739AE /* OpenAL.framework */; };
@@ -45,6 +47,7 @@
 		7A97911719E631C6001FFC4D /* libcocos2d-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A97910419E62E40001FFC4D /* libcocos2d-mac.a */; };
 		7A97911819E631CD001FFC4D /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9790FE19E62E40001FFC4D /* libcocos2d.a */; };
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
+		927F619E196C771E000F43EF /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B7378993180767190076A88C /* MainScene.m */; };
 		927F61A5196C771E000F43EF /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3517B978D7009739AE /* OpenAL.framework */; };
 		927F61A9196C771E000F43EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3D17B978D7009739AE /* Foundation.framework */; };
 		927F61AA196C771E000F43EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3F17B978D7009739AE /* CoreGraphics.framework */; };
@@ -89,13 +92,11 @@
 		B77F1B4017B978D7009739AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3F17B978D7009739AE /* CoreGraphics.framework */; };
 		B77F1B4217B978D7009739AE /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B4117B978D7009739AE /* CoreText.framework */; };
 		B78A0B10198AF87200C63841 /* Published-Android in Resources */ = {isa = PBXBuildFile; fileRef = B78A0B0F198AF87200C63841 /* Published-Android */; };
-		BC5FB7751A5A603F00003315 /* Kabo.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5FB7741A5A603F00003315 /* Kabo.m */; };
-		BC5FB7791A5A816F00003315 /* Page3.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5FB7781A5A816F00003315 /* Page3.m */; };
-		BC62D55B1A3EDAE700826345 /* Page2.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62D55A1A3EDAE700826345 /* Page2.m */; };
-		BC8206B91A637DBD003399B0 /* Page4.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8206B81A637DBD003399B0 /* Page4.m */; };
-		BCC486661A394E360025F6D5 /* Page1.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC486651A394E360025F6D5 /* Page1.m */; };
-		BCDB260E1A63B87400173B58 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDB260D1A63B87400173B58 /* Test.m */; };
-		BCE6CDA91A75ECC2008D4F7F /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE6CDA81A75ECC2008D4F7F /* MainMenu.m */; };
+		BCD21A371A7A0473001C5E67 /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD21A361A7A0473001C5E67 /* Gameplay.m */; };
+		BCD21A3B1A7A0C8A001C5E67 /* Page1.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD21A3A1A7A0C8A001C5E67 /* Page1.m */; };
+		BCD21A3F1A7A2140001C5E67 /* Page2.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD21A3E1A7A2140001C5E67 /* Page2.m */; };
+		BCD21A421A7A227D001C5E67 /* Page3.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD21A411A7A227D001C5E67 /* Page3.m */; };
+		BCD21A451A7A2287001C5E67 /* Page4.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD21A441A7A2287001C5E67 /* Page4.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,7 +105,7 @@
 			containerPortal = B77F1B2617B978D7009739AE /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5B121020197484A3004C1E1D;
-			remoteInfo = "PhysicsTest Java";
+			remoteInfo = "AlamatNgPinya Java";
 		};
 		7A9790FD19E62E40001FFC4D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -134,6 +135,41 @@
 			remoteGlobalIDString = 7A4037A819E37038007B6E8F;
 			remoteInfo = "cocos2d-mac";
 		};
+		7A97910519E62E4C001FFC4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7378940180761A80076A88C /* cocos2d.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BF32679195F8D8800D9A51A;
+			remoteInfo = cocos2dJava;
+		};
+		7A97910F19E6319A001FFC4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7378940180761A80076A88C /* cocos2d.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5018F24C0DFDEAC400C013A5;
+			remoteInfo = "cocos2d-ios";
+		};
+		7A97911519E631A1001FFC4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7378940180761A80076A88C /* cocos2d.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A4037A719E37038007B6E8F;
+			remoteInfo = "cocos2d-mac";
+		};
+		7A97911F19E63219001FFC4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7378940180761A80076A88C /* cocos2d.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BF32679195F8D8800D9A51A;
+			remoteInfo = cocos2dJava;
+		};
+		7A97912119E6321C001FFC4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7378940180761A80076A88C /* cocos2d.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2FEB60D194F6C9E00FC0574;
+			remoteInfo = cocos2dAndroid;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -143,14 +179,14 @@
 		5B121011197483EE004C1E1D /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
 		5B121013197483EE004C1E1D /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
 		5B121015197483EE004C1E1D /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
-		5B12101B19748413004C1E1D /* PhysicsTestActivity.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; name = PhysicsTestActivity.java; path = Source/Platforms/Android/java/org/cocos2d/PhysicsTest/PhysicsTestActivity.java; sourceTree = "<group>"; };
-		5B121021197484A3004C1E1D /* PhysicsTest Java.jar */ = {isa = PBXFileReference; explicitFileType = compiled.java.jar; includeInIndex = 0; path = "PhysicsTest Java.jar"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B12102E197484FA004C1E1D /* PhysicsTestActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhysicsTestActivity.h; path = Source/Platforms/Android/PhysicsTestActivity.h; sourceTree = "<group>"; };
-		5B12102F197484FA004C1E1D /* PhysicsTestActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhysicsTestActivity.m; path = Source/Platforms/Android/PhysicsTestActivity.m; sourceTree = "<group>"; };
+		5B12101B19748413004C1E1D /* AlamatNgPinyaActivity.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; name = AlamatNgPinyaActivity.java; path = Source/Platforms/Android/java/org/cocos2d/AlamatNgPinya/AlamatNgPinyaActivity.java; sourceTree = "<group>"; };
+		5B121021197484A3004C1E1D /* AlamatNgPinya Java.jar */ = {isa = PBXFileReference; explicitFileType = compiled.java.jar; includeInIndex = 0; path = "AlamatNgPinya Java.jar"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B12102E197484FA004C1E1D /* AlamatNgPinyaActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlamatNgPinyaActivity.h; path = Source/Platforms/Android/AlamatNgPinyaActivity.h; sourceTree = "<group>"; };
+		5B12102F197484FA004C1E1D /* AlamatNgPinyaActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlamatNgPinyaActivity.m; path = Source/Platforms/Android/AlamatNgPinyaActivity.m; sourceTree = "<group>"; };
 		5B121033197485FE004C1E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Platforms/Android/Info.plist; sourceTree = "<group>"; };
 		5B121034197485FE004C1E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Platforms/iOS/Info.plist; sourceTree = "<group>"; };
 		5BA4619E1974C88900785744 /* AndroidManifest.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = AndroidManifest.xml; path = Platforms/Android/AndroidManifest.xml; sourceTree = "<group>"; };
-		7A4035FF19DDEE84007B6E8F /* PhysicsTest Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PhysicsTest Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4035FF19DDEE84007B6E8F /* AlamatNgPinya Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AlamatNgPinya Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A40360219DDEE84007B6E8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Platforms/Mac/Info.plist; sourceTree = "<group>"; };
 		7A40360319DDEE84007B6E8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Source/Platforms/Mac/main.m; sourceTree = "<group>"; };
 		7A40360519DDEE84007B6E8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Source/Platforms/Mac/AppDelegate.h; sourceTree = "<group>"; };
@@ -162,7 +198,7 @@
 		7AFCD5DB19E9BD9F00BCCCDA /* cocos2d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = cocos2d.h; path = "Source/libs/cocos2d-iphone/cocos2d/cocos2d.h"; sourceTree = "<group>"; };
 		7AFCD5DD19E9BDC200BCCCDA /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Source/Bridging-Header.h"; sourceTree = "<group>"; };
 		8392007918EE8E3300B6C429 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
-		927F61BF196C771E000F43EF /* PhysicsTest Android.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PhysicsTest Android.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		927F61BF196C771E000F43EF /* AlamatNgPinya Android.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AlamatNgPinya Android.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
 		B71F5909188484E7003F4D28 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPad.png; path = Icons/iPad.png; sourceTree = "<group>"; };
@@ -183,7 +219,9 @@
 		B737896E180762440076A88C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Source/Resources/Default@2x.png"; sourceTree = SOURCE_ROOT; };
 		B73789851807631A0076A88C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Source/Platforms/iOS/main.m; sourceTree = SOURCE_ROOT; };
 		B73789861807631A0076A88C /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = Source/Prefix.pch; sourceTree = SOURCE_ROOT; };
-		B77F1B2E17B978D7009739AE /* PhysicsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhysicsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7378992180767190076A88C /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainScene.h; path = Source/MainScene.h; sourceTree = "<group>"; };
+		B7378993180767190076A88C /* MainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainScene.m; path = Source/MainScene.m; sourceTree = "<group>"; };
+		B77F1B2E17B978D7009739AE /* AlamatNgPinya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamatNgPinya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B77F1B3117B978D7009739AE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B77F1B3317B978D7009739AE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		B77F1B3517B978D7009739AE /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
@@ -195,20 +233,16 @@
 		B77F1B4117B978D7009739AE /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		B78A0B0F198AF87200C63841 /* Published-Android */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Published-Android"; sourceTree = "<group>"; };
 		B7B3713D180358F1007369CC /* libObjectiveChipmunk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libObjectiveChipmunk.a; path = "../libs/cocos2d-iphone/external/Chipmunk/xcode/build/Debug-iphoneos/libObjectiveChipmunk.a"; sourceTree = "<group>"; };
-		BC5FB7731A5A603F00003315 /* Kabo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kabo.h; sourceTree = "<group>"; };
-		BC5FB7741A5A603F00003315 /* Kabo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kabo.m; sourceTree = "<group>"; };
-		BC5FB7771A5A816F00003315 /* Page3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page3.h; sourceTree = "<group>"; };
-		BC5FB7781A5A816F00003315 /* Page3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page3.m; sourceTree = "<group>"; };
-		BC62D5591A3EDAE600826345 /* Page2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page2.h; sourceTree = "<group>"; };
-		BC62D55A1A3EDAE700826345 /* Page2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page2.m; sourceTree = "<group>"; };
-		BC8206B71A637DBD003399B0 /* Page4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page4.h; sourceTree = "<group>"; };
-		BC8206B81A637DBD003399B0 /* Page4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page4.m; sourceTree = "<group>"; };
-		BCC486641A394E360025F6D5 /* Page1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page1.h; sourceTree = "<group>"; };
-		BCC486651A394E360025F6D5 /* Page1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page1.m; sourceTree = "<group>"; };
-		BCDB260C1A63B87300173B58 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
-		BCDB260D1A63B87400173B58 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
-		BCE6CDA71A75ECC2008D4F7F /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
-		BCE6CDA81A75ECC2008D4F7F /* MainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenu.m; sourceTree = "<group>"; };
+		BCD21A351A7A0473001C5E67 /* Gameplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gameplay.h; sourceTree = "<group>"; };
+		BCD21A361A7A0473001C5E67 /* Gameplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gameplay.m; sourceTree = "<group>"; };
+		BCD21A391A7A0C8A001C5E67 /* Page1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page1.h; sourceTree = "<group>"; };
+		BCD21A3A1A7A0C8A001C5E67 /* Page1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page1.m; sourceTree = "<group>"; };
+		BCD21A3D1A7A2140001C5E67 /* Page2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page2.h; sourceTree = "<group>"; };
+		BCD21A3E1A7A2140001C5E67 /* Page2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page2.m; sourceTree = "<group>"; };
+		BCD21A401A7A227D001C5E67 /* Page3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page3.h; sourceTree = "<group>"; };
+		BCD21A411A7A227D001C5E67 /* Page3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page3.m; sourceTree = "<group>"; };
+		BCD21A431A7A2287001C5E67 /* Page4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page4.h; sourceTree = "<group>"; };
+		BCD21A441A7A2287001C5E67 /* Page4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page4.m; sourceTree = "<group>"; };
 		D352B48019EC608A00829775 /* MetalShaders */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MetalShaders; path = Source/MetalShaders; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -339,9 +373,9 @@
 		7A40362219DDF090007B6E8F /* Android */ = {
 			isa = PBXGroup;
 			children = (
-				5B12101B19748413004C1E1D /* PhysicsTestActivity.java */,
-				5B12102E197484FA004C1E1D /* PhysicsTestActivity.h */,
-				5B12102F197484FA004C1E1D /* PhysicsTestActivity.m */,
+				5B12101B19748413004C1E1D /* AlamatNgPinyaActivity.java */,
+				5B12102E197484FA004C1E1D /* AlamatNgPinyaActivity.h */,
+				5B12102F197484FA004C1E1D /* AlamatNgPinyaActivity.m */,
 			);
 			name = Android;
 			sourceTree = "<group>";
@@ -438,15 +472,13 @@
 		B737893C1807616C0076A88C /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				BC62D5621A3EDB8500826345 /* Pages */,
+				BCD21A3C1A7A0C91001C5E67 /* Pages */,
 				7A40362019DDEF0D007B6E8F /* Platforms */,
+				B7378992180767190076A88C /* MainScene.h */,
+				B7378993180767190076A88C /* MainScene.m */,
+				BCD21A351A7A0473001C5E67 /* Gameplay.h */,
+				BCD21A361A7A0473001C5E67 /* Gameplay.m */,
 				D352B48019EC608A00829775 /* MetalShaders */,
-				BC5FB7731A5A603F00003315 /* Kabo.h */,
-				BC5FB7741A5A603F00003315 /* Kabo.m */,
-				BCDB260C1A63B87300173B58 /* Test.h */,
-				BCDB260D1A63B87400173B58 /* Test.m */,
-				BCE6CDA71A75ECC2008D4F7F /* MainMenu.h */,
-				BCE6CDA81A75ECC2008D4F7F /* MainMenu.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -487,10 +519,10 @@
 		B77F1B2F17B978D7009739AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B77F1B2E17B978D7009739AE /* PhysicsTest.app */,
-				927F61BF196C771E000F43EF /* PhysicsTest Android.app */,
-				5B121021197484A3004C1E1D /* PhysicsTest Java.jar */,
-				7A4035FF19DDEE84007B6E8F /* PhysicsTest Mac.app */,
+				B77F1B2E17B978D7009739AE /* AlamatNgPinya.app */,
+				927F61BF196C771E000F43EF /* AlamatNgPinya Android.app */,
+				5B121021197484A3004C1E1D /* AlamatNgPinya Java.jar */,
+				7A4035FF19DDEE84007B6E8F /* AlamatNgPinya Mac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -542,17 +574,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BC62D5621A3EDB8500826345 /* Pages */ = {
+		BCD21A3C1A7A0C91001C5E67 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
-				BCC486641A394E360025F6D5 /* Page1.h */,
-				BCC486651A394E360025F6D5 /* Page1.m */,
-				BC62D5591A3EDAE600826345 /* Page2.h */,
-				BC62D55A1A3EDAE700826345 /* Page2.m */,
-				BC5FB7771A5A816F00003315 /* Page3.h */,
-				BC5FB7781A5A816F00003315 /* Page3.m */,
-				BC8206B71A637DBD003399B0 /* Page4.h */,
-				BC8206B81A637DBD003399B0 /* Page4.m */,
+				BCD21A391A7A0C8A001C5E67 /* Page1.h */,
+				BCD21A3A1A7A0C8A001C5E67 /* Page1.m */,
+				BCD21A3D1A7A2140001C5E67 /* Page2.h */,
+				BCD21A3E1A7A2140001C5E67 /* Page2.m */,
+				BCD21A401A7A227D001C5E67 /* Page3.h */,
+				BCD21A411A7A227D001C5E67 /* Page3.m */,
+				BCD21A431A7A2287001C5E67 /* Page4.h */,
+				BCD21A441A7A2287001C5E67 /* Page4.m */,
 			);
 			name = Pages;
 			sourceTree = "<group>";
@@ -560,9 +592,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5B121020197484A3004C1E1D /* PhysicsTest Java */ = {
+		5B121020197484A3004C1E1D /* AlamatNgPinya Java */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B121022197484A3004C1E1D /* Build configuration list for PBXNativeTarget "PhysicsTest Java" */;
+			buildConfigurationList = 5B121022197484A3004C1E1D /* Build configuration list for PBXNativeTarget "AlamatNgPinya Java" */;
 			buildPhases = (
 				5B121027197484D2004C1E1D /* Sources */,
 				5B121028197484D5004C1E1D /* Frameworks */,
@@ -570,15 +602,16 @@
 			buildRules = (
 			);
 			dependencies = (
+				7A97910619E62E4C001FFC4D /* PBXTargetDependency */,
 			);
-			name = "PhysicsTest Java";
-			productName = "PhysicsTest Java";
-			productReference = 5B121021197484A3004C1E1D /* PhysicsTest Java.jar */;
+			name = "AlamatNgPinya Java";
+			productName = "AlamatNgPinya Java";
+			productReference = 5B121021197484A3004C1E1D /* AlamatNgPinya Java.jar */;
 			productType = "com.apportable.java.product-type.library";
 		};
-		7A4035FE19DDEE84007B6E8F /* PhysicsTest Mac */ = {
+		7A4035FE19DDEE84007B6E8F /* AlamatNgPinya Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A40361E19DDEE84007B6E8F /* Build configuration list for PBXNativeTarget "PhysicsTest Mac" */;
+			buildConfigurationList = 7A40361E19DDEE84007B6E8F /* Build configuration list for PBXNativeTarget "AlamatNgPinya Mac" */;
 			buildPhases = (
 				7A4035FB19DDEE84007B6E8F /* Sources */,
 				7A4035FC19DDEE84007B6E8F /* Frameworks */,
@@ -587,15 +620,16 @@
 			buildRules = (
 			);
 			dependencies = (
+				7A97911619E631A1001FFC4D /* PBXTargetDependency */,
 			);
-			name = "PhysicsTest Mac";
-			productName = "PhysicsTest Mac";
-			productReference = 7A4035FF19DDEE84007B6E8F /* PhysicsTest Mac.app */;
+			name = "AlamatNgPinya Mac";
+			productName = "AlamatNgPinya Mac";
+			productReference = 7A4035FF19DDEE84007B6E8F /* AlamatNgPinya Mac.app */;
 			productType = "com.apple.product-type.application";
 		};
-		927F6198196C771E000F43EF /* PhysicsTest Android */ = {
+		927F6198196C771E000F43EF /* AlamatNgPinya Android */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 927F61BC196C771E000F43EF /* Build configuration list for PBXNativeTarget "PhysicsTest Android" */;
+			buildConfigurationList = 927F61BC196C771E000F43EF /* Build configuration list for PBXNativeTarget "AlamatNgPinya Android" */;
 			buildPhases = (
 				927F619B196C771E000F43EF /* Run Script */,
 				927F619C196C771E000F43EF /* Sources */,
@@ -605,16 +639,18 @@
 			buildRules = (
 			);
 			dependencies = (
+				7A97912219E6321C001FFC4D /* PBXTargetDependency */,
+				7A97912019E63219001FFC4D /* PBXTargetDependency */,
 				5B121032197485D1004C1E1D /* PBXTargetDependency */,
 			);
-			name = "PhysicsTest Android";
+			name = "AlamatNgPinya Android";
 			productName = Example;
-			productReference = 927F61BF196C771E000F43EF /* PhysicsTest Android.app */;
+			productReference = 927F61BF196C771E000F43EF /* AlamatNgPinya Android.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B77F1B2D17B978D7009739AE /* PhysicsTest iOS */ = {
+		B77F1B2D17B978D7009739AE /* AlamatNgPinya iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B77F1CDE17B978D8009739AE /* Build configuration list for PBXNativeTarget "PhysicsTest iOS" */;
+			buildConfigurationList = B77F1CDE17B978D8009739AE /* Build configuration list for PBXNativeTarget "AlamatNgPinya iOS" */;
 			buildPhases = (
 				D2E0167A18D782EC00927430 /* Run Script */,
 				B77F1B2A17B978D7009739AE /* Sources */,
@@ -625,10 +661,11 @@
 			buildRules = (
 			);
 			dependencies = (
+				7A97911019E6319A001FFC4D /* PBXTargetDependency */,
 			);
-			name = "PhysicsTest iOS";
+			name = "AlamatNgPinya iOS";
 			productName = Example;
-			productReference = B77F1B2E17B978D7009739AE /* PhysicsTest.app */;
+			productReference = B77F1B2E17B978D7009739AE /* AlamatNgPinya.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -659,7 +696,6 @@
 			knownRegions = (
 				en,
 				Base,
-				English,
 			);
 			mainGroup = B77F1B2517B978D7009739AE;
 			productRefGroup = B77F1B2F17B978D7009739AE /* Products */;
@@ -672,10 +708,10 @@
 			);
 			projectRoot = "";
 			targets = (
-				B77F1B2D17B978D7009739AE /* PhysicsTest iOS */,
-				927F6198196C771E000F43EF /* PhysicsTest Android */,
-				5B121020197484A3004C1E1D /* PhysicsTest Java */,
-				7A4035FE19DDEE84007B6E8F /* PhysicsTest Mac */,
+				B77F1B2D17B978D7009739AE /* AlamatNgPinya iOS */,
+				927F6198196C771E000F43EF /* AlamatNgPinya Android */,
+				5B121020197484A3004C1E1D /* AlamatNgPinya Java */,
+				7A4035FE19DDEE84007B6E8F /* AlamatNgPinya Mac */,
 			);
 		};
 /* End PBXProject section */
@@ -831,7 +867,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B12102A197484DD004C1E1D /* PhysicsTestActivity.java in Sources */,
+				5B12102A197484DD004C1E1D /* AlamatNgPinyaActivity.java in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -839,6 +875,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A4036E819DE3F33007B6E8F /* MainScene.m in Sources */,
 				7A40360419DDEE84007B6E8F /* main.m in Sources */,
 				7A59498E19E3941300F65F90 /* AppDelegate.m in Sources */,
 			);
@@ -848,7 +885,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B121030197484FA004C1E1D /* PhysicsTestActivity.m in Sources */,
+				927F619E196C771E000F43EF /* MainScene.m in Sources */,
+				5B121030197484FA004C1E1D /* AlamatNgPinyaActivity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -856,14 +894,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC62D55B1A3EDAE700826345 /* Page2.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
-				BC5FB7791A5A816F00003315 /* Page3.m in Sources */,
-				BC8206B91A637DBD003399B0 /* Page4.m in Sources */,
-				BCE6CDA91A75ECC2008D4F7F /* MainMenu.m in Sources */,
-				BCDB260E1A63B87400173B58 /* Test.m in Sources */,
-				BCC486661A394E360025F6D5 /* Page1.m in Sources */,
-				BC5FB7751A5A603F00003315 /* Kabo.m in Sources */,
+				BCD21A371A7A0473001C5E67 /* Gameplay.m in Sources */,
+				7A046D8C19E8A20E004C4763 /* MainScene.m in Sources */,
+				BCD21A451A7A2287001C5E67 /* Page4.m in Sources */,
+				BCD21A3F1A7A2140001C5E67 /* Page2.m in Sources */,
+				BCD21A3B1A7A0C8A001C5E67 /* Page1.m in Sources */,
+				BCD21A421A7A227D001C5E67 /* Page3.m in Sources */,
 				5B121038197487F2004C1E1D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -873,8 +910,33 @@
 /* Begin PBXTargetDependency section */
 		5B121032197485D1004C1E1D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5B121020197484A3004C1E1D /* PhysicsTest Java */;
+			target = 5B121020197484A3004C1E1D /* AlamatNgPinya Java */;
 			targetProxy = 5B121031197485D1004C1E1D /* PBXContainerItemProxy */;
+		};
+		7A97910619E62E4C001FFC4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = cocos2dJava;
+			targetProxy = 7A97910519E62E4C001FFC4D /* PBXContainerItemProxy */;
+		};
+		7A97911019E6319A001FFC4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "cocos2d-ios";
+			targetProxy = 7A97910F19E6319A001FFC4D /* PBXContainerItemProxy */;
+		};
+		7A97911619E631A1001FFC4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "cocos2d-mac";
+			targetProxy = 7A97911519E631A1001FFC4D /* PBXContainerItemProxy */;
+		};
+		7A97912019E63219001FFC4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = cocos2dJava;
+			targetProxy = 7A97911F19E63219001FFC4D /* PBXContainerItemProxy */;
+		};
+		7A97912219E6321C001FFC4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = cocos2dAndroid;
+			targetProxy = 7A97912119E6321C001FFC4D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -986,7 +1048,7 @@
 					"-ObjC",
 					"-lz",
 				);
-				PRODUCT_MODULE_NAME = PhysicsTest;
+				PRODUCT_MODULE_NAME = AlamatNgPinya;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_OBJC_BRIDGING_HEADER = "Source/Bridging-Header.h";
@@ -1030,7 +1092,7 @@
 					"-ObjC",
 					"-lz",
 				);
-				PRODUCT_MODULE_NAME = PhysicsTest;
+				PRODUCT_MODULE_NAME = AlamatNgPinya;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_OBJC_BRIDGING_HEADER = "Source/Bridging-Header.h";
@@ -1077,7 +1139,7 @@
 					"-lgles_apportable",
 					"-landroid",
 				);
-				PRODUCT_MODULE_NAME = PhysicsTest;
+				PRODUCT_MODULE_NAME = AlamatNgPinya;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = sbandroid;
@@ -1124,7 +1186,7 @@
 					"-lgles_apportable",
 					"-landroid",
 				);
-				PRODUCT_MODULE_NAME = PhysicsTest;
+				PRODUCT_MODULE_NAME = AlamatNgPinya;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = sbandroid;
@@ -1219,20 +1281,12 @@
 				INFOPLIST_FILE = Source/Resources/Platforms/iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone/build/Debug-iphonesimulator",
-					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone/external/ObjectAL/ObjectAL/build/Debug-iphonesimulator",
-					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone/external/ObjectAL/ObjectAL/build/Release",
-					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone/external/SSZipArchive/build/Debug-iphonesimulator",
-					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone/external/SSZipArchive/build/Release",
-				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-ObjC",
 				);
-				PRODUCT_NAME = PhysicsTest;
+				PRODUCT_NAME = AlamatNgPinya;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Source/Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1261,19 +1315,11 @@
 				INFOPLIST_FILE = Source/Resources/Platforms/iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone/build/Debug-iphonesimulator",
-					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone/external/ObjectAL/ObjectAL/build/Debug-iphonesimulator",
-					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone/external/ObjectAL/ObjectAL/build/Release",
-					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone/external/SSZipArchive/build/Debug-iphonesimulator",
-					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone/external/SSZipArchive/build/Release",
-				);
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-ObjC",
 				);
-				PRODUCT_NAME = PhysicsTest;
+				PRODUCT_NAME = AlamatNgPinya;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Source/Bridging-Header.h";
 				VALIDATE_PRODUCT = YES;
@@ -1284,7 +1330,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B121022197484A3004C1E1D /* Build configuration list for PBXNativeTarget "PhysicsTest Java" */ = {
+		5B121022197484A3004C1E1D /* Build configuration list for PBXNativeTarget "AlamatNgPinya Java" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B121023197484A3004C1E1D /* Debug */,
@@ -1293,7 +1339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A40361E19DDEE84007B6E8F /* Build configuration list for PBXNativeTarget "PhysicsTest Mac" */ = {
+		7A40361E19DDEE84007B6E8F /* Build configuration list for PBXNativeTarget "AlamatNgPinya Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7A40361919DDEE84007B6E8F /* Debug */,
@@ -1302,7 +1348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		927F61BC196C771E000F43EF /* Build configuration list for PBXNativeTarget "PhysicsTest Android" */ = {
+		927F61BC196C771E000F43EF /* Build configuration list for PBXNativeTarget "AlamatNgPinya Android" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				927F61BD196C771E000F43EF /* Debug */,
@@ -1320,7 +1366,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B77F1CDE17B978D8009739AE /* Build configuration list for PBXNativeTarget "PhysicsTest iOS" */ = {
+		B77F1CDE17B978D8009739AE /* Build configuration list for PBXNativeTarget "AlamatNgPinya iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B77F1CDF17B978D8009739AE /* Debug */,
