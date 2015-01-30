@@ -97,6 +97,7 @@
 		BCD21A3F1A7A2140001C5E67 /* Page2.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD21A3E1A7A2140001C5E67 /* Page2.m */; };
 		BCD21A421A7A227D001C5E67 /* Page3.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD21A411A7A227D001C5E67 /* Page3.m */; };
 		BCD21A451A7A2287001C5E67 /* Page4.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD21A441A7A2287001C5E67 /* Page4.m */; };
+		BCE406CB1A7B68EE00D6B69A /* Page5.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE406CA1A7B68EE00D6B69A /* Page5.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -243,6 +244,8 @@
 		BCD21A411A7A227D001C5E67 /* Page3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page3.m; sourceTree = "<group>"; };
 		BCD21A431A7A2287001C5E67 /* Page4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page4.h; sourceTree = "<group>"; };
 		BCD21A441A7A2287001C5E67 /* Page4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page4.m; sourceTree = "<group>"; };
+		BCE406C91A7B68EE00D6B69A /* Page5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page5.h; sourceTree = "<group>"; };
+		BCE406CA1A7B68EE00D6B69A /* Page5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page5.m; sourceTree = "<group>"; };
 		D352B48019EC608A00829775 /* MetalShaders */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MetalShaders; path = Source/MetalShaders; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -585,6 +588,8 @@
 				BCD21A411A7A227D001C5E67 /* Page3.m */,
 				BCD21A431A7A2287001C5E67 /* Page4.h */,
 				BCD21A441A7A2287001C5E67 /* Page4.m */,
+				BCE406C91A7B68EE00D6B69A /* Page5.h */,
+				BCE406CA1A7B68EE00D6B69A /* Page5.m */,
 			);
 			name = Pages;
 			sourceTree = "<group>";
@@ -900,6 +905,7 @@
 				BCD21A451A7A2287001C5E67 /* Page4.m in Sources */,
 				BCD21A3F1A7A2140001C5E67 /* Page2.m in Sources */,
 				BCD21A3B1A7A0C8A001C5E67 /* Page1.m in Sources */,
+				BCE406CB1A7B68EE00D6B69A /* Page5.m in Sources */,
 				BCD21A421A7A227D001C5E67 /* Page3.m in Sources */,
 				5B121038197487F2004C1E1D /* AppDelegate.m in Sources */,
 			);
@@ -1277,6 +1283,7 @@
 					"Source/libs/cocos2d-iphone/external/Chipmunk/include",
 					"\"Source/libs/cocos2d-iphone/cocos2d-ui\"/**",
 					"\"Source/libs/cocos2d-iphone/external/ObjectAL\"/**",
+					"\"Source/libs/CC3StatLib/cocos3d\"/**",
 				);
 				INFOPLIST_FILE = Source/Resources/Platforms/iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
@@ -1285,6 +1292,7 @@
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-ObjC",
+					"-lstdc++",
 				);
 				PRODUCT_NAME = AlamatNgPinya;
 				PROVISIONING_PROFILE = "";
@@ -1311,6 +1319,7 @@
 					"Source/libs/cocos2d-iphone/external/Chipmunk/include",
 					"\"Source/libs/cocos2d-iphone/cocos2d-ui\"/**",
 					"\"Source/libs/cocos2d-iphone/external/ObjectAL\"/**",
+					"\"Source/libs/CC3StatLib/cocos3d\"/**",
 				);
 				INFOPLIST_FILE = Source/Resources/Platforms/iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
@@ -1318,6 +1327,7 @@
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-ObjC",
+					"-lstdc++",
 				);
 				PRODUCT_NAME = AlamatNgPinya;
 				PROVISIONING_PROFILE = "";
