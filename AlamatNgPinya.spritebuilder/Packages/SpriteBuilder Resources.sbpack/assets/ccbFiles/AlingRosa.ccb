@@ -55,8 +55,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>p1_alingrosa</string>
-				<key>locked</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -316,8 +314,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>-50.428569793701172</real>
-							<real>-41.095237731933594</real>
+							<real>-39</real>
+							<real>-43</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -355,7 +353,7 @@
 						<key>type</key>
 						<string>Degrees</string>
 						<key>value</key>
-						<real>9.5238094329833984</real>
+						<real>0.0</real>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -560,7 +558,7 @@
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>0.3333333432674408</real>
+			<real>1</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
