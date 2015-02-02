@@ -250,8 +250,6 @@
 				</array>
 			</dict>
 		</array>
-		<key>selected</key>
-		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>
@@ -307,7 +305,7 @@
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>0.0</real>
+			<real>1.2333333492279053</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
