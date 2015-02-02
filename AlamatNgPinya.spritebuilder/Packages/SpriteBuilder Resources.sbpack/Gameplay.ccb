@@ -50,8 +50,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>background</string>
-				<key>locked</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -73,11 +71,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>0.0</real>
-							<real>0.0</real>
+							<real>0.5</real>
+							<real>0.5</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -100,8 +98,8 @@
 						<string>Point</string>
 						<key>value</key>
 						<array>
-							<real>0.0</real>
-							<real>0.0</real>
+							<real>0.5</real>
+							<real>0.5</real>
 						</array>
 					</dict>
 					<dict>
@@ -373,8 +371,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>30</real>
-									<real>20</real>
+									<real>45</real>
+									<real>24</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -699,8 +697,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>538</real>
-									<real>20</real>
+									<real>529</real>
+									<real>25</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -992,8 +990,6 @@
 								</array>
 							</dict>
 						</array>
-						<key>selected</key>
-						<true/>
 					</dict>
 				</array>
 				<key>customClass</key>
@@ -1138,6 +1134,8 @@
 				</array>
 			</dict>
 		</array>
+		<key>selected</key>
+		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>

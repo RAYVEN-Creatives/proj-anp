@@ -80,7 +80,7 @@
 		</dict>
 		<key>Sprites</key>
 		<dict/>
-		<key>assets/ccbResources</key>
+		<key>ccbResources</key>
 		<dict>
 			<key>previewFolderHidden</key>
 			<true/>
