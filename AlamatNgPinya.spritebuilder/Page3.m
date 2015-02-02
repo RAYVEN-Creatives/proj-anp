@@ -14,6 +14,7 @@
     int curtainTap;
     CCNode *_curtainNode;
     CCSprite *_curtainSprite;
+    CCSprite *_darkEffectNode;
 }
 
 -(void) didLoadFromCCB {
@@ -23,13 +24,15 @@
     // load page3
     CCLOG(@"Page 3 loaded.");
     
+    // set current tap to zero
     curtainTap = 0;
-    
 }
 
 -(void) touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
     CGPoint touchLocation = [touch locationInWorld];
-    curtainTap = [self moveCurtain:curtainTap scene1:@"Close Curtain" scene2:@"Open Curtain" location:&touchLocation];
+    if (CGRectContainsPoint([_curtainNode boundingBox], touchLocation)) {
+        curtainTap = [self moveCurtain:curtainTap scene1:@"Close Curtain" scene2:@"Open Curtain" location:&touchLocation];
+    }
 }
 
 // shifts the scene of the sprite according to tap count
@@ -39,12 +42,23 @@
     BOOL close = (count % 2 == 0);
     
     // check current scene
-    NSString *scene;
-    if (close) scene = [NSString stringWithString:s1];
-    else scene = [NSString stringWithString:s2];
+    NSString *scene; // current status of curtain
+    NSString *light; // light effect
+    
+    if (close) {
+        scene = [NSString stringWithString:s1];
+        light = [NSString stringWithFormat:@"Dark"];
+    }
+    else {
+        scene = [NSString stringWithString:s2];
+        light = [NSString stringWithFormat:@"Light"];
+    }
     
     // change sprite
     [_curtainSprite.animationManager runAnimationsForSequenceNamed: scene];
+    
+    // darken place
+    [_darkEffectNode.animationManager runAnimationsForSequenceNamed: light];
     
     // shrink/expand detector
     if (close) _curtainNode.scaleX = 1.30;
