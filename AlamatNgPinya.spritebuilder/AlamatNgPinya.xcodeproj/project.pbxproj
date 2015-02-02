@@ -94,6 +94,8 @@
 		B78A0B10198AF87200C63841 /* Published-Android in Resources */ = {isa = PBXBuildFile; fileRef = B78A0B0F198AF87200C63841 /* Published-Android */; };
 		BC58EB591A7F399F00977A00 /* Page6.m in Sources */ = {isa = PBXBuildFile; fileRef = BC58EB581A7F399F00977A00 /* Page6.m */; };
 		BC58EB5D1A7F3D3A00977A00 /* Page7.m in Sources */ = {isa = PBXBuildFile; fileRef = BC58EB5C1A7F3D3A00977A00 /* Page7.m */; };
+		BC58EB601A7F4A4000977A00 /* Page8.m in Sources */ = {isa = PBXBuildFile; fileRef = BC58EB5F1A7F4A4000977A00 /* Page8.m */; };
+		BC58EB631A7F4C5D00977A00 /* Page9.m in Sources */ = {isa = PBXBuildFile; fileRef = BC58EB621A7F4C5D00977A00 /* Page9.m */; };
 		BCD21A371A7A0473001C5E67 /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD21A361A7A0473001C5E67 /* Gameplay.m */; };
 		BCD21A3B1A7A0C8A001C5E67 /* Page1.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD21A3A1A7A0C8A001C5E67 /* Page1.m */; };
 		BCD21A3F1A7A2140001C5E67 /* Page2.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD21A3E1A7A2140001C5E67 /* Page2.m */; };
@@ -240,6 +242,10 @@
 		BC58EB581A7F399F00977A00 /* Page6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page6.m; sourceTree = "<group>"; };
 		BC58EB5B1A7F3D3A00977A00 /* Page7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page7.h; sourceTree = "<group>"; };
 		BC58EB5C1A7F3D3A00977A00 /* Page7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page7.m; sourceTree = "<group>"; };
+		BC58EB5E1A7F4A4000977A00 /* Page8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page8.h; sourceTree = "<group>"; };
+		BC58EB5F1A7F4A4000977A00 /* Page8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page8.m; sourceTree = "<group>"; };
+		BC58EB611A7F4C5D00977A00 /* Page9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page9.h; sourceTree = "<group>"; };
+		BC58EB621A7F4C5D00977A00 /* Page9.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page9.m; sourceTree = "<group>"; };
 		BCD21A351A7A0473001C5E67 /* Gameplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gameplay.h; sourceTree = "<group>"; };
 		BCD21A361A7A0473001C5E67 /* Gameplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gameplay.m; sourceTree = "<group>"; };
 		BCD21A391A7A0C8A001C5E67 /* Page1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page1.h; sourceTree = "<group>"; };
@@ -600,6 +606,10 @@
 				BC58EB581A7F399F00977A00 /* Page6.m */,
 				BC58EB5B1A7F3D3A00977A00 /* Page7.h */,
 				BC58EB5C1A7F3D3A00977A00 /* Page7.m */,
+				BC58EB5E1A7F4A4000977A00 /* Page8.h */,
+				BC58EB5F1A7F4A4000977A00 /* Page8.m */,
+				BC58EB611A7F4C5D00977A00 /* Page9.h */,
+				BC58EB621A7F4C5D00977A00 /* Page9.m */,
 			);
 			name = Pages;
 			sourceTree = "<group>";
@@ -912,9 +922,11 @@
 				B73789871807631A0076A88C /* main.m in Sources */,
 				BCD21A371A7A0473001C5E67 /* Gameplay.m in Sources */,
 				7A046D8C19E8A20E004C4763 /* MainScene.m in Sources */,
+				BC58EB601A7F4A4000977A00 /* Page8.m in Sources */,
 				BC58EB591A7F399F00977A00 /* Page6.m in Sources */,
 				BC58EB5D1A7F3D3A00977A00 /* Page7.m in Sources */,
 				BCD21A451A7A2287001C5E67 /* Page4.m in Sources */,
+				BC58EB631A7F4C5D00977A00 /* Page9.m in Sources */,
 				BCD21A3F1A7A2140001C5E67 /* Page2.m in Sources */,
 				BCD21A3B1A7A0C8A001C5E67 /* Page1.m in Sources */,
 				BCE406CB1A7B68EE00D6B69A /* Page5.m in Sources */,
