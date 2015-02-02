@@ -32,7 +32,7 @@
     // add blocks to array
     _blocksArray = [NSArray arrayWithObjects:_blockNode1, _blockNode2, _blockNode3, _blockNode4, _blockNode5,nil];
     
-    // TEST: overlap node with block sprite
+    // overlap node with block sprite
     for(int i = 0; i < [_blocksArray count]; i++) {
         CCSprite *test = (CCSprite*) [CCBReader load: @"assets/ccbFiles/Block"];
         [_blocksArray[i] addChild:test];
@@ -59,7 +59,7 @@
             CCNode *selected = (CCNode*)_blocksArray[i];
             
             // setup joint
-            _mouseJoint = [CCPhysicsJoint connectedDistanceJointWithBodyA:_mouseJointNode.physicsBody bodyB:selected.physicsBody anchorA:ccp(0, 0) anchorB:ccp(0, 0) minDistance:1.f maxDistance:1.f];
+            _mouseJoint = [CCPhysicsJoint connectedPivotJointWithBodyA:_mouseJointNode.physicsBody bodyB:selected.physicsBody anchorA:ccp(0, 0)];
             
             // check what block was touched
             CCLOG(@"Touching block node #%d", i);
@@ -76,6 +76,25 @@
     
     // change position of mouseJointNode
     _mouseJointNode.position = touchLocation;
+}
+
+
+-(void) touchEnded:(UITouch *)touch withEvent:(UIEvent *)event {
+    [self releaseBlock];
+}
+
+-(void) touchCancelled:(UITouch *)touch withEvent:(UIEvent *)event {
+    [self releaseBlock];
+}
+
+// mouseJoint = nil once released
+- (void)releaseBlock {
+    if (_mouseJoint != nil)
+    {
+        // releases the joint and lets the catapult snap back
+        [_mouseJoint invalidate];
+        _mouseJoint = nil;
+    }
 }
 
 
