@@ -11,7 +11,8 @@
 @implementation Page11
 
 {
-    
+    CCNode *_waterDropNode;
+    CCNode *_sprinklerNode;
 }
 
 - (void) didLoadFromCCB {
@@ -20,6 +21,27 @@
     
     // notice
     CCLOG(@"Page 11 loaded.");
+}
+
+- (void) touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
+    // get touch location
+    CGPoint touchLocation = [touch locationInWorld];
+    
+    // if user touches neighbor
+    if (CGRectContainsPoint([_sprinklerNode boundingBox], touchLocation)) {
+        // remove all children
+        [_waterDropNode removeAllChildren];
+        
+        // load waterdrop particle
+        CCParticleSystem *drops = (CCParticleSystem *)[CCBReader load:@"assets/ccbFiles/WaterDrops"];
+        
+        // position of drops
+        drops.position = ccp(250, 150);
+        drops.rotation = 50.f;
+        
+        // throws drops (add to parent)
+        [_waterDropNode.parent addChild:drops];
+    }
 }
 
 @end

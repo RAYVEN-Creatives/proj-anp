@@ -32,6 +32,9 @@
     
     // load sprite to
     CCSprite *be = (CCSprite*) [CCBReader load:@"assets/ccbFiles/BurnEffect"];
+    
+    // position of effect
+    be.position = ccp(150, 150);
 
     // add effect to child
     [_burnEffectNode addChild:be];
