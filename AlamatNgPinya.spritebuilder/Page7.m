@@ -38,9 +38,9 @@
         
         // play Crying
         if (firstClick) {
-            [_pinangEyesNode. animationManager runAnimationsForSequenceNamed:@"Crying"];
+            [_pinangEyesNode.animationManager runAnimationsForSequenceNamed:@"Crying"];
             firstClick = FALSE;
-        } else [_pinangEyesNode. animationManager runAnimationsForSequenceNamed:@"Continue Crying"];
+        } else [_pinangEyesNode.animationManager runAnimationsForSequenceNamed:@"Continue Crying"];
     }
 }
 

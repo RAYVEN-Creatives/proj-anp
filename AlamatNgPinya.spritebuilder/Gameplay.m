@@ -45,9 +45,11 @@
     // note: can change scenes using this part
     if (p < 1) {
         pnum = 1;
+        [self toMainMenu];
         return;
     } else if (p > 12) {
         pnum = 12;
+        [self toMainMenu];
         return;
     }
     
@@ -65,6 +67,11 @@
     
     // add to child
     [_pageNode addChild:page];
+}
+
+- (void) toMainMenu {
+    CCScene *gameplayScene = [CCBReader loadAsScene:@"MainScene"];
+    [[CCDirector sharedDirector] replaceScene:gameplayScene];
 }
 
 @end
