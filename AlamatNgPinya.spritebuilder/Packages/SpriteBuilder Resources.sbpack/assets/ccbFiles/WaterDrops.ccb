@@ -111,7 +111,7 @@
 				<key>value</key>
 				<array>
 					<real>50</real>
-					<real>5</real>
+					<real>10</real>
 				</array>
 			</dict>
 			<dict>
@@ -315,7 +315,7 @@
 				<key>type</key>
 				<string>Texture</string>
 				<key>value</key>
-				<string>assets/images/p2_bubble.png</string>
+				<string>assets/images/page2/p2_bubble.png</string>
 			</dict>
 		</array>
 		<key>selected</key>

@@ -31,6 +31,8 @@
     // if user touches the bird...
     if (CGRectContainsPoint([_birdNode boundingBox], touchLocation)) {
         
+        CCLOG(@"I'm touching it.");
+        
         // bird, fly ~~~
         [_birdSprite.animationManager runAnimationsForSequenceNamed:@"Fly"];
     }

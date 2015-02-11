@@ -36,7 +36,7 @@
         CCParticleSystem *drops = (CCParticleSystem *)[CCBReader load:@"assets/ccbFiles/WaterDrops"];
         
         // position of drops
-        drops.position = ccp(250, 150);
+        drops.position = ccp(224, 158);
         drops.rotation = 50.f;
         
         // throws drops (add to parent)
