@@ -16,7 +16,7 @@
 	<key>currentResolution</key>
 	<integer>0</integer>
 	<key>currentSequenceId</key>
-	<integer>2</integer>
+	<integer>0</integer>
 	<key>docDimensionsType</key>
 	<integer>1</integer>
 	<key>fileType</key>
@@ -57,7 +57,7 @@
 							<integer>7</integer>
 							<key>value</key>
 							<array>
-								<string>assets/images/p3_curtain1.png</string>
+								<string>assets/images/page3/p3_curtain1.png</string>
 								<string>Use regular file</string>
 							</array>
 						</dict>
@@ -75,7 +75,7 @@
 							<integer>7</integer>
 							<key>value</key>
 							<array>
-								<string>assets/images/p3_curtain2.png</string>
+								<string>assets/images/page3/p3_curtain2.png</string>
 								<string>Use regular file</string>
 							</array>
 						</dict>
@@ -93,7 +93,7 @@
 							<integer>7</integer>
 							<key>value</key>
 							<array>
-								<string>assets/images/p3_curtain3.png</string>
+								<string>assets/images/page3/p3_curtain3.png</string>
 								<string>Use regular file</string>
 							</array>
 						</dict>
@@ -111,7 +111,7 @@
 							<integer>7</integer>
 							<key>value</key>
 							<array>
-								<string>assets/images/p3_curtain4.png</string>
+								<string>assets/images/page3/p3_curtain4.png</string>
 								<string>Use regular file</string>
 							</array>
 						</dict>
@@ -129,7 +129,7 @@
 							<integer>7</integer>
 							<key>value</key>
 							<array>
-								<string>assets/images/p3_curtain5.png</string>
+								<string>assets/images/page3/p3_curtain5.png</string>
 								<string>Use regular file</string>
 							</array>
 						</dict>
@@ -160,7 +160,7 @@
 							<integer>7</integer>
 							<key>value</key>
 							<array>
-								<string>assets/images/p3_curtain5.png</string>
+								<string>assets/images/page3/p3_curtain5.png</string>
 								<string>Use regular file</string>
 							</array>
 						</dict>
@@ -178,7 +178,7 @@
 							<integer>7</integer>
 							<key>value</key>
 							<array>
-								<string>assets/images/p3_curtain4.png</string>
+								<string>assets/images/page3/p3_curtain4.png</string>
 								<string>Use regular file</string>
 							</array>
 						</dict>
@@ -196,7 +196,7 @@
 							<integer>7</integer>
 							<key>value</key>
 							<array>
-								<string>assets/images/p3_curtain3.png</string>
+								<string>assets/images/page3/p3_curtain3.png</string>
 								<string>Use regular file</string>
 							</array>
 						</dict>
@@ -214,7 +214,7 @@
 							<integer>7</integer>
 							<key>value</key>
 							<array>
-								<string>assets/images/p3_curtain2.png</string>
+								<string>assets/images/page3/p3_curtain2.png</string>
 								<string>Use regular file</string>
 							</array>
 						</dict>
@@ -232,7 +232,7 @@
 							<integer>7</integer>
 							<key>value</key>
 							<array>
-								<string>assets/images/p3_curtain1.png</string>
+								<string>assets/images/page3/p3_curtain1.png</string>
 								<string>Use regular file</string>
 							</array>
 						</dict>
@@ -263,7 +263,7 @@
 							<integer>7</integer>
 							<key>value</key>
 							<array>
-								<string>assets/images/p3_curtain1.png</string>
+								<string>assets/images/page3/p3_curtain1.png</string>
 								<string>Use regular file</string>
 							</array>
 						</dict>
@@ -348,7 +348,7 @@
 				<key>value</key>
 				<array>
 					<string></string>
-					<string>assets/images/p3_curtain1.png</string>
+					<string>assets/images/page3/p3_curtain5.png</string>
 				</array>
 			</dict>
 			<dict>
@@ -443,7 +443,7 @@
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>0.0</real>
+			<real>0.26666668057441711</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
@@ -479,7 +479,7 @@
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>0.26666668057441711</real>
+			<real>0.0</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>

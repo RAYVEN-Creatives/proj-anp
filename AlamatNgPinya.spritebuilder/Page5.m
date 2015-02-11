@@ -14,8 +14,6 @@
     CCNode *_blockNode1;
     CCNode *_blockNode2;
     CCNode *_blockNode3;
-    CCNode *_blockNode4;
-    CCNode *_blockNode5;
     CCNode *_mouseJointNode;
     CCPhysicsJoint *_mouseJoint;
     CCPhysicsNode *_physicsNode;
@@ -30,13 +28,7 @@
     _physicsNode.debugDraw = TRUE;
     
     // add blocks to array
-    _blocksArray = [NSArray arrayWithObjects:_blockNode1, _blockNode2, _blockNode3, _blockNode4, _blockNode5,nil];
-    
-    // overlap node with block sprite
-    for(int i = 0; i < [_blocksArray count]; i++) {
-        CCSprite *test = (CCSprite*) [CCBReader load: @"assets/ccbFiles/Block"];
-        [_blocksArray[i] addChild:test];
-    }
+    _blocksArray = [NSArray arrayWithObjects:_blockNode1, _blockNode2, _blockNode3, nil];
     
     // disable collision of mouseJointNode
     _mouseJointNode.physicsBody.collisionMask =@[];
@@ -59,7 +51,9 @@
             CCNode *selected = (CCNode*)_blocksArray[i];
             
             // setup joint
-            _mouseJoint = [CCPhysicsJoint connectedPivotJointWithBodyA:_mouseJointNode.physicsBody bodyB:selected.physicsBody anchorA:ccp(0, 0)];
+            //_mouseJoint = [CCPhysicsJoint connectedPivotJointWithBodyA:_mouseJointNode.physicsBody bodyB:selected.physicsBody anchorA:ccp(0, 0)];
+            _mouseJoint = [CCPhysicsJoint connectedSpringJointWithBodyA:_mouseJointNode.physicsBody bodyB:selected.physicsBody anchorA:ccp(80, 80) anchorB:ccp(80, 80) restLength:50.f stiffness:300.f damping:10.f];
+            
             
             // check what block was touched
             CCLOG(@"Touching block node #%d", i);

@@ -115,7 +115,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>assets/images/p1_alingrosa.png</string>
+							<string>assets/images/page1/p1_alingrosa.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -363,7 +363,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>assets/images/p1_broom.png</string>
+							<string>assets/images/page1/p1_broom.png</string>
 						</array>
 					</dict>
 					<dict>

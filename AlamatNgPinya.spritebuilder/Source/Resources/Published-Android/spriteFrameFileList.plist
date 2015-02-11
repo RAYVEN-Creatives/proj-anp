@@ -8,6 +8,24 @@
 		<integer>1</integer>
 	</dict>
 	<key>spriteFrameFiles</key>
-	<array/>
+	<array>
+		<string>assets/images/page3.plist</string>
+		<string>assets/images/page11.plist</string>
+		<string>assets/images/page5.plist</string>
+		<string>assets/images/page9.plist</string>
+		<string>assets/images/_gui and others.plist</string>
+		<string>assets/images/page7/others.plist</string>
+		<string>assets/images/page4/fire.plist</string>
+		<string>assets/images/page8/others.plist</string>
+		<string>assets/images/page12.plist</string>
+		<string>assets/images/page2.plist</string>
+		<string>assets/images/page8/bird.plist</string>
+		<string>assets/images/page10.plist</string>
+		<string>assets/images/page6.plist</string>
+		<string>assets/images/page7/pinangcry.plist</string>
+		<string>assets/images/page4/others.plist</string>
+		<string>assets/images/page1.plist</string>
+		<string>assets/images/page4/palayok.plist</string>
+	</array>
 </dict>
 </plist>

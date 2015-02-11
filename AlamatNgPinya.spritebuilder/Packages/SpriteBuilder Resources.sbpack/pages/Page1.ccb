@@ -668,7 +668,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>assets/images/p1_background.png</string>
+							<string>assets/images/page1/p1_background.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -766,6 +766,8 @@
 						<string>assets/ccbFiles/AlingRosa.ccb</string>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -838,7 +840,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>assets/images/p1_pinang.png</string>
+							<string>assets/images/page1/p1_pinang.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -1024,8 +1026,6 @@
 				</array>
 			</dict>
 		</array>
-		<key>selected</key>
-		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>

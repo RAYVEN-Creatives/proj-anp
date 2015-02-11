@@ -110,7 +110,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>assets/images/p2_background1.png</string>
+							<string>assets/images/page2/p2_background1.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -387,7 +387,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>assets/images/p2_alingrosa.png</string>
+							<string>assets/images/page2/p2_alingrosa.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -423,6 +423,8 @@
 						<array/>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -495,7 +497,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>assets/images/p2_background2.png</string>
+							<string>assets/images/page2/p2_background2.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -673,8 +675,6 @@
 				</array>
 			</dict>
 		</array>
-		<key>selected</key>
-		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>

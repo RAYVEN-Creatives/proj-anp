@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>8</integer>
+	<integer>14</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -41,15 +41,15 @@
 		<array>
 			<dict>
 				<key>UUID</key>
-				<integer>1</integer>
+				<integer>8</integer>
 				<key>baseClass</key>
-				<string>CCNodeColor</string>
+				<string>CCSprite</string>
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>CCNodeColor</string>
+				<string>p7_background</string>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -71,22 +71,9 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>81</real>
-							<real>76.000015258789062</real>
+							<real>283</real>
+							<real>159</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>contentSize</string>
-						<key>type</key>
-						<string>Size</string>
-						<key>value</key>
-						<array>
-							<real>100</real>
-							<real>100</real>
 							<integer>0</integer>
 							<integer>0</integer>
 						</array>
@@ -98,8 +85,8 @@
 						<string>Point</string>
 						<key>value</key>
 						<array>
-							<real>0.0</real>
-							<real>0.0</real>
+							<real>0.5</real>
+							<real>0.5</real>
 						</array>
 					</dict>
 					<dict>
@@ -109,10 +96,32 @@
 						<string>ScaleLock</string>
 						<key>value</key>
 						<array>
-							<real>1.6883926391601562</real>
-							<real>1.480437159538269</real>
+							<real>1.1124711036682129</real>
+							<real>0.83653128147125244</real>
 							<false/>
 							<integer>0</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>spriteFrame</string>
+						<key>type</key>
+						<string>SpriteFrame</string>
+						<key>value</key>
+						<array>
+							<string></string>
+							<string>assets/images/page7/others/p7_background.png</string>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>normalMapSpriteFrame</string>
+						<key>type</key>
+						<string>SpriteFrame</string>
+						<key>value</key>
+						<array>
+							<string></string>
+							<string></string>
 						</array>
 					</dict>
 					<dict>
@@ -122,25 +131,25 @@
 						<string>Color3</string>
 						<key>value</key>
 						<array>
-							<real>0.66372370719909668</real>
-							<real>0.87000000476837158</real>
-							<real>0.58912777900695801</real>
+							<real>1</real>
+							<real>1</real>
+							<real>1</real>
 							<real>1</real>
 						</array>
 					</dict>
 					<dict>
 						<key>name</key>
-						<string>opacity</string>
+						<string>effects</string>
 						<key>type</key>
-						<string>Float</string>
+						<string>EffectControl</string>
 						<key>value</key>
-						<real>1</real>
+						<array/>
 					</dict>
 				</array>
 			</dict>
 			<dict>
 				<key>UUID</key>
-				<integer>4</integer>
+				<integer>12</integer>
 				<key>baseClass</key>
 				<string>CCBFile</string>
 				<key>children</key>
@@ -148,7 +157,77 @@
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>pinang's eyes sprite</string>
+				<string>p7_alingrosa</string>
+				<key>memberVarAssignmentName</key>
+				<string></string>
+				<key>memberVarAssignmentType</key>
+				<integer>1</integer>
+				<key>properties</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>name</string>
+						<key>type</key>
+						<string>StringSimple</string>
+						<key>value</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>position</string>
+						<key>type</key>
+						<string>Position</string>
+						<key>value</key>
+						<array>
+							<real>226</real>
+							<real>273.00003051757812</real>
+							<integer>0</integer>
+							<integer>0</integer>
+							<integer>0</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>scale</string>
+						<key>type</key>
+						<string>ScaleLock</string>
+						<key>value</key>
+						<array>
+							<real>0.85000002384185791</real>
+							<real>0.85000002384185791</real>
+							<false/>
+							<integer>0</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>rotation</string>
+						<key>type</key>
+						<string>Degrees</string>
+						<key>value</key>
+						<real>6.354522705078125</real>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>ccbFile</string>
+						<key>type</key>
+						<string>CCBFile</string>
+						<key>value</key>
+						<string>assets/ccbFiles/AlingRosaMad.ccb</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>UUID</key>
+				<integer>13</integer>
+				<key>baseClass</key>
+				<string>CCBFile</string>
+				<key>children</key>
+				<array/>
+				<key>customClass</key>
+				<string></string>
+				<key>displayName</key>
+				<string>p7_pinang</string>
 				<key>memberVarAssignmentName</key>
 				<string>_pinangEyesNode</string>
 				<key>memberVarAssignmentType</key>
@@ -170,8 +249,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>178</real>
-							<real>147.00001525878906</real>
+							<real>198</real>
+							<real>176</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -184,8 +263,8 @@
 						<string>ScaleLock</string>
 						<key>value</key>
 						<array>
-							<real>1</real>
-							<real>1</real>
+							<real>0.8483847975730896</real>
+							<real>0.81623876094818115</real>
 							<false/>
 							<integer>0</integer>
 						</array>
@@ -196,7 +275,7 @@
 						<key>type</key>
 						<string>CCBFile</string>
 						<key>value</key>
-						<string>assets/ccbFiles/PinangEyes.ccb</string>
+						<string>assets/ccbFiles/PinangCry.ccb</string>
 					</dict>
 				</array>
 				<key>selected</key>
@@ -220,6 +299,8 @@
 						<string></string>
 						<key>displayName</key>
 						<string>left</string>
+						<key>locked</key>
+						<true/>
 						<key>memberVarAssignmentName</key>
 						<string>_leftEyeNode</string>
 						<key>memberVarAssignmentType</key>
@@ -241,8 +322,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>110</real>
-									<real>162</real>
+									<real>94</real>
+									<real>145</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -279,8 +360,8 @@
 								<string>ScaleLock</string>
 								<key>value</key>
 								<array>
-									<real>0.36029061675071716</real>
-									<real>0.33432132005691528</real>
+									<real>0.35954028367996216</real>
+									<real>0.17601998150348663</real>
 									<false/>
 									<integer>0</integer>
 								</array>
@@ -319,6 +400,8 @@
 						<string></string>
 						<key>displayName</key>
 						<string>right</string>
+						<key>locked</key>
+						<true/>
 						<key>memberVarAssignmentName</key>
 						<string>_rightEyeNode</string>
 						<key>memberVarAssignmentType</key>
@@ -340,8 +423,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>188</real>
 									<real>160</real>
+									<real>141</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -378,8 +461,8 @@
 								<string>ScaleLock</string>
 								<key>value</key>
 								<array>
-									<real>0.36029061675071716</real>
-									<real>0.33432132005691528</real>
+									<real>0.36699825525283813</real>
+									<real>0.17025069892406464</real>
 									<false/>
 									<integer>0</integer>
 								</array>
@@ -412,6 +495,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>eyetap detector</string>
+				<key>locked</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>

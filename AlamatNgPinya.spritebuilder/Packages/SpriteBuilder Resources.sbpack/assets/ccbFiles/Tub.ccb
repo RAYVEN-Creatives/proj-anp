@@ -57,7 +57,7 @@
 							<integer>7</integer>
 							<key>value</key>
 							<array>
-								<string>assets/images/p2_tub1.png</string>
+								<string>assets/images/page2/p2_tub1.png</string>
 								<string>Use regular file</string>
 							</array>
 						</dict>
@@ -75,7 +75,7 @@
 							<integer>7</integer>
 							<key>value</key>
 							<array>
-								<string>assets/images/p2_tub2.png</string>
+								<string>assets/images/page2/p2_tub2.png</string>
 								<string>Use regular file</string>
 							</array>
 						</dict>
@@ -93,7 +93,7 @@
 							<integer>7</integer>
 							<key>value</key>
 							<array>
-								<string>assets/images/p2_tub3.png</string>
+								<string>assets/images/page2/p2_tub3.png</string>
 								<string>Use regular file</string>
 							</array>
 						</dict>
@@ -111,7 +111,7 @@
 							<integer>7</integer>
 							<key>value</key>
 							<array>
-								<string>assets/images/p2_tub4.png</string>
+								<string>assets/images/page2/p2_tub4.png</string>
 								<string>Use regular file</string>
 							</array>
 						</dict>
@@ -129,7 +129,7 @@
 							<integer>7</integer>
 							<key>value</key>
 							<array>
-								<string>assets/images/p2_tub5.png</string>
+								<string>assets/images/page2/p2_tub5.png</string>
 								<string>Use regular file</string>
 							</array>
 						</dict>
@@ -214,7 +214,7 @@
 				<key>value</key>
 				<array>
 					<string></string>
-					<string>assets/images/p2_tub5.png</string>
+					<string>assets/images/page2/p2_tub5.png</string>
 				</array>
 			</dict>
 			<dict>
@@ -250,6 +250,8 @@
 				<array/>
 			</dict>
 		</array>
+		<key>selected</key>
+		<true/>
 		<key>seqExpanded</key>
 		<true/>
 	</dict>
@@ -307,7 +309,7 @@
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>0.53333336114883423</real>
+			<real>0.80000001192092896</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
