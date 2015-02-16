@@ -309,8 +309,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>6.4000000953674316</real>
-							<real>9.1999998092651367</real>
+							<real>6</real>
+							<real>7</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -348,7 +348,7 @@
 						<key>type</key>
 						<string>Degrees</string>
 						<key>value</key>
-						<real>-4.6592521667480469</real>
+						<real>0.21624374389648438</real>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -545,7 +545,7 @@
 				<integer>12</integer>
 			</dict>
 			<key>chainedSequenceId</key>
-			<integer>-1</integer>
+			<integer>0</integer>
 			<key>length</key>
 			<real>0.3333333432674408</real>
 			<key>name</key>
@@ -553,7 +553,7 @@
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>0.30000001192092896</real>
+			<real>0.3333333432674408</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>

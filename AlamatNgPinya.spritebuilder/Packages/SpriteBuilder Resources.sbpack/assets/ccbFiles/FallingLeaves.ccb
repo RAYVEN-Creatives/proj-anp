@@ -315,11 +315,9 @@
 				<key>type</key>
 				<string>Texture</string>
 				<key>value</key>
-				<string>assets/images/page1/p1_leaves.png</string>
+				<string>assets/images/page1/p1_leaf.png</string>
 			</dict>
 		</array>
-		<key>selected</key>
-		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>

@@ -278,8 +278,6 @@
 						<string>assets/ccbFiles/PinangCry.ccb</string>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -489,6 +487,8 @@
 								<real>0.0</real>
 							</dict>
 						</array>
+						<key>selected</key>
+						<true/>
 					</dict>
 				</array>
 				<key>customClass</key>

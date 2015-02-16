@@ -12,16 +12,12 @@
 
 {
     CCNode *_neighborNode;
-    CCSprite *_qmarkSprite;
-    int qnum;
+    CCNode *_qmNode;
 }
 
 - (void) didLoadFromCCB {
     // enable touch inputs
     self.userInteractionEnabled = TRUE;
-    
-    // number of question marks
-    qnum = 1;
     
     // notice
     CCLOG(@"Page 9 loaded.");
@@ -33,14 +29,15 @@
     
     // if user touches neighbor
     if (CGRectContainsPoint([_neighborNode boundingBox], touchLocation)) {
-        if (qnum <= 3) {
-            // call scene
-            NSString *q = [NSString stringWithFormat:@"Q%u", qnum];
-            
-            // appear question mark ~~~
-            [_qmarkSprite.animationManager runAnimationsForSequenceNamed:q];
-            qnum++;
-        }
+        
+        // remove child (less memory)
+        [_qmNode removeAllChildren];
+        
+        // load question mark
+        CCSprite *qm = (CCSprite *)[CCBReader load:@"assets/ccbFiles/QuestionMark"];
+        
+        // add it to node (qmark appears)
+        [_qmNode addChild:qm];
     }
 }
 

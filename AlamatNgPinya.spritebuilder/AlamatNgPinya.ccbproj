@@ -190,8 +190,10 @@
 			<true/>
 		</dict>
 		<key>assets/images/page9</key>
+		<dict/>
+		<key>assets/images/page9/others</key>
 		<dict>
-			<key>isSmartSpriteSheet</key>
+			<key>isDirty</key>
 			<true/>
 		</dict>
 		<key>ccbResources</key>
